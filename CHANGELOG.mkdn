@@ -19,6 +19,10 @@ DEVICES
 CHANGELOG
 ---------
 
+### 1.0.1
+* Common: Build.prop update for better market compatibility
+* Galaxy Nexus (GSM):Fix for camera and facelook
+
 ### 1.0.0
 * Common: Built off of clean Android 4.0.3 source (Google)
 * Common: Resurrected Android Screen Candy/Android Screen Savers (when charging - display settings) - codenamedroid
