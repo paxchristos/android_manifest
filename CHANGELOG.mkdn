@@ -19,6 +19,29 @@ DEVICES
 CHANGELOG
 ---------
 
+
+### 1.1.0
+* Common: long press volume when screen locked to skip tracks (cm)
+* Common: custom app for sms on lockscreen (romanbb)
+* Common: update to add hex color input the color picker (romanbb - modded by CND)
+* Common: Add Screenshot Option on Power Menu (CM - but modified for 4.0.3)
+* Common: Switched to prebuilt Superuser (there are still a few issues in the from source branch)
+* Common: Switched to xoomdev's battery percentage (now bettery mod friendly)
+* Common: Fixed Galaxy Live strings (Bugless Beast)
+* Common: disabled hot bluetooth switching to stop massive battery drain O_O
+* Common: Added the ability to customize the grid size in the launcher (Danesh M)
+* Common: updated Google Apps (CND originally built off of Kejars gapps)
+* Common: all devices now support the camera effects
+* Common: Updated all dicts for ICS (blunden)
+* Common: added support for init.d
+* Common: fixed overlap battery % and charging symbol when plugged in
+* Common: fixed YouTube force close
+* Galaxy Nexus (GSM): Now distinguishes between 3G and hspa 
+* Galaxy Nexus (CDMA): Compatability with verizon wireless apps fixed (MyVerizon, NFL Mobile)
+* Nexus S (3G/4G): Fist build
+* Nexus S (3G/4G): First build
+* Xoom (3G/4G/WiFi): First build
+
 ### 1.0.1
 * Common: Build.prop update for better market compatibility
 * Galaxy Nexus (GSM):Fix for camera and facelook
