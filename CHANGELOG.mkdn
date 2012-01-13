@@ -19,6 +19,13 @@ DEVICES
 CHANGELOG
 ---------
 
+### 1.1.0
+* Galaxy Nexus: revert turn off bluetooth hotswaping (Pete - Buggless Beast)
+
+Orignal Commit and reason for reverting
+
+https://github.com/peteralfonso/platform_vendor_pete/commit/a19d2a56ccf07b9ab53a44b7ba5605a1aaffd9e6
+https://github.com/peteralfonso/platform_vendor_pete/commit/e267325a169c62a8a513af49ed7da7dab53bf715
 
 ### 1.1.0
 * Common: long press volume when screen locked to skip tracks (cm)
