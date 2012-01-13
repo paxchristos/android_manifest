@@ -36,6 +36,7 @@ CHANGELOG
 * Common: added support for init.d
 * Common: fixed overlap battery % and charging symbol when plugged in
 * Common: fixed YouTube force close
+* Common: removed performance settings since some had some issue
 * Galaxy Nexus (GSM): Now distinguishes between 3G and hspa 
 * Galaxy Nexus (CDMA): Compatability with verizon wireless apps fixed (MyVerizon, NFL Mobile)
 * Nexus S (3G/4G): Fist build
