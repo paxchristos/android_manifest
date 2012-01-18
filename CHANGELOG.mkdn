@@ -29,6 +29,8 @@ CHANGELOG
 * Common: Added new stack transition effect to the launcher (nebkat)
 * Common: Added ability to hide the dock spacing line in the launcher (nebkat)
 * Common: added the set button back and made a few changes to the hex color picker layout(codenamedroid)
+* Common: changed powerwidget background color to black
+* Common: sped up nav button animations (CrushD)
 * Common: fixed verizon wireless force close
 * Common: LOTS of code clean up and probably a few other things I forgot T_T
 * Galaxy Nexus (CDMA): Fix that all soo elusive space in build.prop
