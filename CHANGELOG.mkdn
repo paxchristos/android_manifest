@@ -23,6 +23,7 @@ CHANGELOG
 * Common: Added Six and Eight Target Lockscreens (codenamedroid/link)
 * Common: method to switch back and forth between lockscreens (Whitehawkx)
 * Common: layout for the unhidden eight lockscreen targets (arrtoodeetoo)
+* Common: added the chevron back on the lockscreen (the unlock ripple)
 * Common: Added the option to disable the bootanimation (cm)
 * Common: Added the miui batter bar (miui, cm, and romanbb for the custom colors)
 * Common: Added new stack transition effect to the launcher (nebkat)
