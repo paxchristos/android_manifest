@@ -19,6 +19,19 @@ DEVICES
 CHANGELOG
 ---------
 
+### 1.1.3
+* Common: Added Six and Eight Target Lockscreens (codenamedroid/link)
+* Common: method to switch back and forth between lockscreens (Whitehawkx)
+* Common: layout for the unhidden eight lockscreen targets (Whitehawkx)
+* Common: Added the option to disable the bootanimation (cm)
+* Common: Added the miui batter bar (miui, cm, and romanbb for the custom colors)
+* Common: Added new stack transition effect to the launcher (nebkat)
+* Common: Added ability to hide the dock spacing line in the launcher (nebkat)
+* Common: added the set button back and made a few changes to the hex color picker layout(codenamedroid)
+* Common: fixed verizon wireless force close
+* Common: LOTS of code clean up and probably a few other things I forgot T_T
+* Galaxy Nexus (CDMA): Fix that all soo elusive space in build.prop
+
 ### 1.1.1
 * Galaxy Nexus: revert turning off bluetooth hotswaping (Pete - Buggless Beast)
 
