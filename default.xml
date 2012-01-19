@@ -208,7 +208,6 @@
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
-  <project path="packages/apps/Superuser" name="codenamedroid/android_packages_apps_Superuser" remote="github" revision="ics" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
@@ -238,16 +237,32 @@
   <project path="system/extras" name="codenamedroid/android_system_extras" remote="github" revision="stock-4.0.3" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
-  <project path="system/su" name="codenamedroid/android_system_su" remote="github" revision="ics" />
   <project path="system/vold" name="platform/system/vold" />
     
+  <!--   Proprietary Apps  -->
+  <project path="packages/apps/Superuser" name="codenamedroid/android_packages_apps_Superuser" remote="github" revision="prebuilt" />
+    
+  <!--     Extra Tools     -->
+  <project path="external/bash" name="codenamedroid/android_external_bash" remote="github" revision="ics" />
+  <project path="external/busybox" name="codenamedroid/android_external_busybox" remote="github" revision="ics" />
+  <project path="external/libncurses" name="codenamedroid/android_external_libncurses" remote="github" revision="ics" />
+  <project path="external/lsof" name="codenamedroid/android_external_lsof" remote="github" revision="ics" />
+  <project path="external/nano" name="codenamedroid/android_external_nano" remote="github" revision="ics" />
+  <project path="external/openvpn" name="codenamedroid/android_external_openvpn" remote="github" revision="ics" />
+  <project path="external/rsync" name="codenamedroid/android_external_rsync" remote="github" revision="master" />
+  <project path="external/wireless-tools" name="codenamedroid/android_external_wireless-tools" remote="github" revision="ics" />
+  <project path="system/su" name="codenamedroid/android_system_su" remote="github" revision="ics" />
+    
+  <!--    CND Squishers    -->
   <project path="tools" name="codenamedroid/android_tools" remote="github" revision="ics" />
-  
+    
+  <!-- Proprietary Vendors -->
   <project path="vendor/imgtec" name="codenamedroid/proprietary_vendor_imgtec" remote="github" revision="stock-4.0.3" />
   <project path="vendor/moto" name="codenamedroid/proprietary_vendor_moto"  remote="github" revision="stock-4.0.3" />
   <project path="vendor/samsung" name="codenamedroid/proprietary_vendor_samsung" remote="github" revision="stock-4.0.3" />
   <project path="vendor/stock" name="codenamedroid/android_vendor_stock" remote="github" revision="stock-4.0.3" />
-  
+    
+  <!--  CND Mod Manifiest  -->  
   <project path="android" name="codenamedroid/android_manifest" remote="github" revision="stock-4.0.3" />
     
 </manifest>
