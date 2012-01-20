@@ -40,13 +40,13 @@ Initialize the repository of your choice:
 to initialize the stock rom repository
 
 
-    repo init -u git://github.com/codenamedroid/android_manifest.git -b stock
+    repo init -u git://github.com/codenamedroid/android_manifest.git -b stock-4.0.3
     
     
 or to initialize the modified rom repository
 
 
-    repo init -u git://github.com/codenamedroid/android_manifest.git -b mod
+    repo init -u git://github.com/codenamedroid/android_manifest.git -b mod-4.0.3
     
 
 Getting the files
