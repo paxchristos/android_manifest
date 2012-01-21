@@ -34,7 +34,7 @@
   <project path="device/samsung/maguro" name="codenamedroid/android_device_samsung_maguro" remote="github" revision="stock-4.0.3" />
   <project path="device/samsung/toro" name="codenamedroid/android_device_samsung_toro" remote="github" revision="stock-4.0.3" />
   <project path="device/samsung/tuna" name="codenamedroid/android_device_samsung_tuna" remote="github" revision="stock-4.0.3" />
-  <project path="device/ti/panda" name="device/ti/panda" />
+  <project path="device/ti/panda" name="codenamedroid/android_device_ti_panda" remote="github" revision="stock-4.0.3" />
   <project path="external/android-mock" name="platform/external/android-mock" />
   <project path="external/antlr" name="platform/external/antlr" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" />
