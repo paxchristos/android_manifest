@@ -245,6 +245,7 @@
   <!--     Extra Tools     -->
   <project path="external/bash" name="codenamedroid/android_external_bash" remote="github" revision="ics" />
   <project path="external/busybox" name="codenamedroid/android_external_busybox" remote="github" revision="ics" />
+  <project path="external/libncurses" name="codenamedroid/android_external_libncurses" remote="github" revision="ics" />
   <project path="external/nano" name="codenamedroid/android_external_nano" remote="github" revision="ics" />
   <project path="external/openvpn" name="codenamedroid/android_external_openvpn" remote="github" revision="ics" />
   <project path="system/su" name="codenamedroid/android_system_su" remote="github" revision="ics" />
