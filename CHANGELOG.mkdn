@@ -13,11 +13,29 @@ DEVICES
 ---------
 
 * Galaxy Nexus (GSM/CDMA) - Released
-* Nexus S (GSM/CDMA) - Scheduled for release
+* Nexus S (GSM/CDMA) - Released
 * Xoom (3G/4G/WiFi) - Scheduled for release
 
 CHANGELOG
 ---------
+
+### 1.2.0
+* Common: default workspance now the same as google stock
+* Common: new transistions and effects in the launcher for the app drawer and workspace (nebkat)
+* Common: updated pulse notifications to use the colorpicker (now moved to interface settings)
+* Common: added back the 4-target lockscreen and a new 4-target that unlocks to the right
+* Common: new ics blue power widget icons (AndroidUser001100001)
+* Common: added volume wake to lockscreen (Evervolv)
+* Common: added setting for 180 degree rotation (cm/romanbb)
+* Common: added back and updated the performance settings and added start-up settings and memory tweaks (cm/kejar)
+* Common: set default wallpaper as chroma
+* Common: lots of cleanup and reorganization
+* Common: fixed sounds for all correct ics sounds
+* Common: fixed issue with lightflow and the custom lockscreens
+* Common: lots more that I forget but will update as the amnesia wears off O_O
+* Nexus S: fixed battery percentage option
+* Galaxy Nexus : auto backlight now on by default 
+* Galaxy Nexus : New Codename Android Kernel 1.0.2!! (Blueharford - our new kernel developer) interactivex is my favorite ;)
 
 ### 1.1.4
 * Common: Added Six and Eight Target Lockscreens (codenamedroid/link)
