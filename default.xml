@@ -240,7 +240,7 @@
   <!--   Proprietary Apps  -->
   <project path="packages/apps/CNDLauncher" name="codenamedroid/android_packages_apps_CNDLauncher" remote="github" revision="4.0.3" />
   <project path="packages/apps/CNDLauncherTab" name="codenamedroid/android_packages_apps_CNDLauncherTab" remote="github" revision="4.0.3" />
-  <project path="packages/apps/CNDSettings" name="codenamedroid/android_packages_apps_CNDSettings" remote="github" revision="ics" />
+  <project path="packages/apps/CNDSettings" name="codenamedroid/android_packages_apps_CNDSettings" remote="github" revision="mod-4.0.3" />
   <project path="packages/apps/Superuser" name="codenamedroid/android_packages_apps_Superuser" remote="github" revision="prebuilt" />
 
   <!--     Extra Tools     -->
