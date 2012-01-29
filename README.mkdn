@@ -1,7 +1,10 @@
 
 Getting Started
 ===========
-  
+
+Gerrit Review Site:
+==================
+http://review.codenameandroid.com  
   
 Beginning Developers:
 ---------------
