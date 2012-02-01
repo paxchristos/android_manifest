@@ -182,7 +182,7 @@
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="github" revision="stock-4.0.3" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
-  <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="github" revision="stock-4.0.3" />
+  <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="github" revision="mod-4.0.3" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="github" revision="mod-4.0.3" />
