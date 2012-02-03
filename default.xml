@@ -253,7 +253,7 @@
   <project path="external/openvpn" name="android_external_openvpn" remote="github" revision="ics" />
   <project path="external/rsync" name="android_external_rsync" remote="github" revision="master" />
   
-  <!-- Extra Apps --!>
+  <!-- Extra Apps -->
   <project path="packages/apps/SpeakerProximity" name="androcom_packages_apps_speakerproximity" remote="github" revision="trunk" />
   <project path="system/su" name="android_system_su" remote="github" revision="ics" />
     
