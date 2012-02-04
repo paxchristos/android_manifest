@@ -20,6 +20,7 @@ CHANGELOG
 ---------
 
 ### 1.3.0
+* common: the ability to switch the recents button with search (codenamedroid)
 * common: adb over network (CM)
 * common: fixed init.d start-up tweaks
 * common: reverted backlight on by default
