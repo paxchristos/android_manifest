@@ -25,7 +25,6 @@ CHANGELOG
 * common: adds option for either replacing recents with search or having all four
 * common: update maps and google wallet
 * Galaxy Nexus (CDMA): updated to 4.0.4 proprietary files
-* Galaxy Nexus (CDMA): 4.0.4 build fingerprint
 * Galaxy Nexus: Codename Kernel 1.4.0 (Upgraded to 3.0.20, Enabled CP210 drived for usb serial, and added ksm)
 
 ### 1.3.2
