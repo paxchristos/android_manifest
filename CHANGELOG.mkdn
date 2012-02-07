@@ -19,6 +19,13 @@ DEVICES
 CHANGELOG
 ---------
 
+### 1.3.3
+* common: fixes google wallet
+* common: adds option for either replacing recents with search or having all four
+* common: update maps and google wallet
+* Galaxy Nexus (CDMA): updated to 4.0.4 proprietary files
+* Galaxy Nexus (CDMA): 4.0.4 build fingerprint
+
 ### 1.3.2
 * common: added all launguages back
 * common: uncentered stock unlock down layout
