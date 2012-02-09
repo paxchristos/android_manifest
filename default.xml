@@ -239,9 +239,9 @@
   <project path="system/vold" name="platform/system/vold" />
 
   <!--   Proprietary Apps  -->
-  <project path="packages/apps/CNDLauncher" name="android_packages_apps_CNDLauncher" remote="github" revision="4.0.3" />
-  <project path="packages/apps/CNDLauncherTab" name="android_packages_apps_CNDLauncherTab" remote="github" revision="4.0.3" />
-  <project path="packages/apps/CNDSettings" name="android_packages_apps_CNDSettings" remote="github" revision="mod-4.0.3" />
+  <project path="packages/apps/CNALauncher" name="android_packages_apps_CNDLauncher" remote="github" revision="4.0.3" />
+  <project path="packages/apps/CNALauncherTab" name="android_packages_apps_CNDLauncherTab" remote="github" revision="4.0.3" />
+  <project path="packages/apps/CNASettings" name="android_packages_apps_CNDSettings" remote="github" revision="mod-4.0.3" />
   <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="github" revision="prebuilt" />
 
   <!--     Extra Tools     -->
@@ -257,16 +257,16 @@
   <project path="packages/apps/SpeakerProximity" name="androcom_packages_apps_speakerproximity" remote="github" revision="trunk" />
   <project path="system/su" name="android_system_su" remote="github" revision="ics" />
  
-  <!--    CND Squishers    -->
+  <!--    CNA Squishers    -->
   <project path="tools" name="android_tools" remote="github" revision="ics" />
 
   <!-- Proprietary Vendors -->
   <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="github" revision="stock-4.0.3" />
   <project path="vendor/moto" name="proprietary_vendor_moto"  remote="github" revision="stock-4.0.3" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="github" revision="stock-4.0.3" />
-  <project path="vendor/cnd" name="android_vendor_cnd" remote="github" revision="stock-4.0.3" />
+  <project path="vendor/cna" name="android_vendor_cnd" remote="github" revision="stock-4.0.3" />
   
-  <!--  CND Mod Manifiest  -->
+  <!--  CNA Mod Manifiest  -->
   <project path="android" name="android_manifest" remote="github" revision="mod-4.0.3" />
     
 </manifest>
