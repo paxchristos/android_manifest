@@ -5,7 +5,7 @@
            fetch="https://android.googlesource.com/" />
     
   <remote  name="github"
-           fetch="git://github.com/codenamedroid/"
+           fetch="git://github.com/cna/"
            review="review.codenameandroid.com" />   
     
   <default revision="refs/tags/android-4.0.3_r1"
