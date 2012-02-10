@@ -1,21 +1,67 @@
+Codename Android MOD
+===========
+To get started with Codename Android MOD, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/version-control.html).
 
 Getting Started
-===========
-
-Gerrit Review Site:
-==================
-http://review.codenameandroid.com  
-  
-Beginning Developers:
 ---------------
 
-Use the links above for the instructions to Setup, Download, and Build Codename Android
-    
-    
-Advanced Developers:
+Generate a sshkey
+=================
+At a terminal window type 'ssh-keygen' then hit enter through the prompts...
+--- browse to ~/.ssh
+---- run 'cat id_rsa.pub'
+----- copy to clipboard
+
+Register an account on our Gerrit
+=================================
+Go to [Gerrit Review Site](http://review.codenameandroid.com)
+- Upper left hand corner hit register
+-- Select with google/yahoo account and signin
+---Select a Name
+---- Select a username <!write this down!> a.k.a <gerrit.username>
+----- Paste the ssh key you got from the last step of 'Generate a sshkey'
+------ Your Done!!
+
+Initializing a Build Environment
+--------------------------
+
+Read Initializing a Build Environment(http://source.android.com/source/initializing.html)
+
+
+Create the Directories
+----------------------
+
+-----You will need to set up some directories in your build environment.
+
+----------To create them:
+
+---------------mkdir -p ~/bin 
+
+---------------mkdir -p ~/android/system 
+
+
+Install the Repository
+----------------------
+
+-----Enter the following to download make executable the "repo" binary:
+
+----------curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > ~/bin/repo
+
+----------chmod a+x ~/bin/repo
+
+-----You may need to reboot for these changes to take effect. 
+
+
+Now enter the following to initialize the repository:
+
+-----cd ~/android/system/ 
+
+Repositories:
 ---------------
-          
-    
+
+Before you continue --> run this in the terminal 'git config --global review.review.codenameandroid.com.username <gerrit username>'
+
 to initialize the stock rom repository
 
 
@@ -29,28 +75,31 @@ or to initialize the modified rom repository
 
     
     
+Then to start the Sync. (This is gonna take awhile 2+ GB's to download.
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+-----repo sync 
+
+
+Submitting Patches
+------------------
+Patches are always welcome!  Please submit your patches via Codename Android Gerrit!
+You can do this by using these commands:
+
+    (From root android directory)
+    . build/envsetup.sh
+    (Go to repo you are patching, make your changes and commit)
+    szgerrit <for(new)/changes(patch set)> <branch/change-id> 
+
+    repo start brancname .
+    (Make your changes and commit)
+    repo upload .
+Note: "." meaning current directory, if you remove the "." it will upload any branch changes in the whole repo.
+For more help on using this tool, use this command: repo help upload
+
+Make your changes and commit with a detailed message, starting with what you are working with (i.e. vision: Update Kernel)
+Commit your patches in a single commit. Squash multiple commit using this command: git rebase -i HEAD~<# of commits>
+
+To view the status of your and others' patches, visit [Codename Android Code Review](http://review.codenameandroid.com/)
+
+
+If you have any issues please contact blueharford or Codenamedroid through rootzwiki.com PM's
