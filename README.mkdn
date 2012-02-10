@@ -3,15 +3,15 @@ Codename Android
 To get started with Codename Android, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/version-control.html).
 
-Getting Started
----------------
-
 Register an account on our Gerrit
-=================================
-
-Generate a sshkey
 ---------------
-At a terminal window type 'ssh-keygen' then hit enter through the prompts...
+First you need to generate an sshkey
+
+At a terminal window type
+
+    ssh-keygen
+
+then hit enter through the prompts...
 
 browse to ~/.ssh by running:
 
@@ -33,7 +33,7 @@ Your Done!!
 Initializing a Build Environment
 --------------------------
 
-Read [Initializing a Build Environment](http://source.android.com/source/initializing.html)
+Read [Setting-Up-Linux](https://github.com/CNA/android_manifest/blob/mod-4.0.3/Setting-Up-Linux.mkdn) For Linux Users or [Setting-Up-Mac](https://github.com/CNA/android_manifest/blob/mod-4.0.3/Setting-Up-Mac.mkdn) For Mac Users and if you need any more help check out [Initializing a Build Environment](http://source.android.com/source/initializing.html) for the official instructions.
 
 
 Create the Directories
