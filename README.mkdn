@@ -9,24 +9,26 @@ Getting Started
 Generate a sshkey
 =================
 At a terminal window type 'ssh-keygen' then hit enter through the prompts...
---- browse to ~/.ssh
----- run 'cat id_rsa.pub'
------ copy to clipboard
+
+	browse to ~/.ssh
+	run 'cat id_rsa.pub'
+	copy to clipboard
 
 Register an account on our Gerrit
 =================================
 Go to [Gerrit Review Site](http://review.codenameandroid.com)
-- Upper left hand corner hit register
--- Select with google/yahoo account and signin
----Select a Name
----- Select a username <!write this down!> a.k.a <gerrit.username>
------ Paste the ssh key you got from the last step of 'Generate a sshkey'
------- Your Done!!
+
+	Upper left hand corner hit register
+	Select with google/yahoo account and signin
+	Select a Name
+	Select a username <!write this down!> a.k.a <gerrit.username>
+	Paste the ssh key you got from the last step of 'Generate a sshkey'
+	Your Done!!
 
 Initializing a Build Environment
 --------------------------
 
-Read Initializing a Build Environment(http://source.android.com/source/initializing.html)
+Read [Initializing a Build Environment](http://source.android.com/source/initializing.html)
 
 
 Create the Directories
@@ -60,7 +62,9 @@ Now enter the following to initialize the repository:
 Repositories:
 ---------------
 
-Before you continue --> run this in the terminal 'git config --global review.review.codenameandroid.com.username <gerrit username>'
+Before you continue --> run this in the terminal
+
+	git config --global review.review.codenameandroid.com.username <gerrit username>
 
 to initialize the stock rom repository
 
