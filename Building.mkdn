@@ -39,7 +39,7 @@ Build everything with make. GNU make can handle parallel tasks with a -jN argume
 For Examplee
 
 
-    make -j8 otapackage CND_RELEASE=true
+    make -j8 otapackage CNA_RELEASE=true
 
 
     
