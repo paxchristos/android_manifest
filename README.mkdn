@@ -16,9 +16,9 @@ At a terminal window type 'ssh-keygen' then hit enter through the prompts...
 
 Register an account on our Gerrit
 =================================
-Go to [Gerrit Review Site](http://review.codenameandroid.com)
+Go to our [Gerrit Review Site](http://review.codenameandroid.com)
 
-	Upper left hand corner hit register
+	Upper right hand corner hit 'register'
 	Select with google/yahoo account and signin
 	Select a Name
 	Select a username <!write this down!> a.k.a <gerrit.username>
