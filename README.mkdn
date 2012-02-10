@@ -20,6 +20,8 @@ browse to ~/.ssh by running:
 and copy your sshkey with:
 
     cat id_rsa.pub
+    
+copy what is shown to your clipboard
 
 Go to our [Gerrit Review Site](http://review.codenameandroid.com)
 
