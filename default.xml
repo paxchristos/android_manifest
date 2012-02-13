@@ -242,7 +242,6 @@
 
   <!--   Proprietary Apps  -->
   <project path="packages/apps/CNALauncher" name="android_packages_apps_CNALauncher" remote="github" revision="4.0.3" />
-  <project path="packages/apps/CNASettings" name="android_packages_apps_CNASettings" remote="github" revision="mod-4.0.3" />
   <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="github" revision="prebuilt" />
 
   <!--     Extra Tools     -->
