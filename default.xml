@@ -27,6 +27,7 @@
   <project path="device/generic/goldfish" name="device/generic/goldfish" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
+  <project path="device/htc/common" name="android_device_htc_common" />
   <project path="device/htc/inc" name="android_device_htc_inc" />
   <project path="device/sample" name="device/sample" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="device/moto/common" name="device/moto/common" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
@@ -175,7 +176,8 @@
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" />
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="hardware/ril" name="platform/hardware/ril" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
