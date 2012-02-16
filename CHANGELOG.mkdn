@@ -14,10 +14,36 @@ DEVICES
 
 * Galaxy Nexus (GSM/CDMA) - Released
 * Nexus S (GSM/CDMA) - Released
-* Xoom (3G/4G/WiFi) - Scheduled for release
+* Xoom (3G/4G/WiFi) - Released
 
 CHANGELOG
 ---------
+
+### 1.4.0
+* common: CNASettings has been merged into settings and has been completely re-writen to work better on both phones and tablets
+* common: removed google apps from compile
+* common: added the file manager back
+* common: wait to lock screen (romanbb) 
+* common: webos style recents (Zaphod-Beeblebrox)
+* common: better rotation control options (Team Eos)
+* common: Added CombinedBar Auto Hide (Flemmard)
+* common: all lockscreen graphics have been improved and resized (androiduser)
+* common: root is now option (cyanogen - in developer options)
+* common: faster transition animations in the launcher (nebkat)
+* common: Hiding media from folder with .nomedia file. (cyanogen)
+* common: all battery and clock customizations now work on tablets
+* common: enabled the Notification Power Widget Enable on tablets (TDR)
+* common: improved scrolling chache for much smoother scrolling (pawitp)
+* common: zRam and Kernel samepage merging (cm - performance -> memory management)
+* common: option for always enabling battery percentage on the lock screen (whitehawkx)
+* common: improvements made to the lockscreen to work better on both phones and tablets (codenamedroid)
+* common: phone target is now replaced with browser when compiled for tablets
+* common: camera unlock target is now always accross from the unlock target to emulate the stock android lockscreen layout
+* common: Increase Zygote preload GC threshold to half the heapgrowthlimit for faster boot times (Vijay Dandiga)
+* common: fully configurable power menu (romanbb for screenshot and codenamedroid for reboot and airplainemode)
+* common: made clock on big clock a tab bit smaller: looks nicer and works better on phones with smaller screens
+* common: Profiles - Quiet Hours - gives the ability to have certain sounds, vibrations, and notifications to mute a specific times (DvTonder)
+* common: fast torch - enable flash light from lockscreen by holding down on the power button while the screen is off (Zaphod-Beeblebrox - Interface -> Lockscreen)
 
 ### 1.3.3
 * common: fixes google wallet
