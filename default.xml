@@ -239,7 +239,7 @@
   <project path="system/extras" name="android_system_extras" />
   <project path="system/media" name="platform/system/media" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="system/netd" name="platform/system/netd" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
-  <project path="system/vold" name="platform/system/vold" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
+  <project path="system/vold" name="android_system_vold" />
 
   <!--   Proprietary Apps  -->
   <project path="packages/apps/Launcher2" name="android_packages_apps_Launcher2" remote="github" revision="4.0.3" />
