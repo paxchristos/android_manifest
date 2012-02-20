@@ -4,22 +4,25 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
     
-  <remote  name="github"
+  <remote  name="cna"
            fetch="git://github.com/CNA/"
-           review="review.codenameandroid.com" />   
+           review="review.codenameandroid.com" />
+   
+  <remote  name="github"
+           fetch="git://github.com/" />
     
   <default revision="stock-4.0.3"
-           remote="github"
+           remote="cna"
            sync-j="4" />
     
-  <project path="build" name="android_build" remote="github" revision="stock-4.0.3" >
+  <project path="build" name="android_build" revision="stock-4.0.3" >
     <copyfile src="core/root.mk" dest="Makefile" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="bionic" name="android_bionic" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="github" revision="ics" />
+  <project path="bootable/recovery" name="android_bootable_recovery" revision="ics" />
   <project path="dalvik" name="platform/dalvik" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="development" name="android_development" />
   <project path="device/asus/tf101" name="android_device_asus_tf101" />
@@ -27,6 +30,7 @@
   <project path="device/generic/goldfish" name="device/generic/goldfish" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
+  <project path="device/asus/tf101/kernel" name="android_kernel_asus_tf101" revision="codename" />
   <project path="device/htc/common" name="android_device_htc_common" />
   <project path="device/htc/inc" name="android_device_htc_inc" />
   <project path="device/sample" name="device/sample" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
@@ -35,7 +39,7 @@
   <project path="device/moto/stingray_cdma" name="android_device_moto_stingray_cdma" />
   <project path="device/moto/umts_everest" name="android_device_moto_umts_everest" />
   <project path="device/moto/wingray" name="android_device_moto_wingray" />
-  <project path="device/samsung/aries-common" name="android_device_samsung_aries-common" remote="github" revision="mod-4.0.3" />
+  <project path="device/samsung/aries-common" name="android_device_samsung_aries-common" revision="mod-4.0.3" />
   <project path="device/samsung/crespo" name="android_device_samsung_crespo" />
   <project path="device/samsung/crespo4g" name="android_device_samsung_crespo4g" />
   <project path="device/samsung/galaxysmtd" name="android_device_samsung_galaxysmtd" />
@@ -131,11 +135,11 @@
   <project path="external/ppp" name="platform/external/ppp" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="external/proguard" name="platform/external/proguard" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="external/protobuf" name="platform/external/protobuf" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
-  <project path="external/qemu" name="android_external_qemu" remote="github" revision="stock-4.0.3" />
+  <project path="external/qemu" name="android_external_qemu" revision="stock-4.0.3" />
   <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="external/quake" name="platform/external/quake" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="external/safe-iop" name="platform/external/safe-iop" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
-  <project path="external/skia" name="android_external_skia" remote="github" revision="stock-4.0.3"/>
+  <project path="external/skia" name="android_external_skia" revision="stock-4.0.3"/>
   <project path="external/sonivox" name="platform/external/sonivox" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="external/speex" name="platform/external/speex" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="external/sqlite" name="platform/external/sqlite" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
@@ -158,9 +162,9 @@
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
-  <project path="external/yaffs2" name="android_external_yaffs2" remote="github" revision="ics" />
+  <project path="external/yaffs2" name="android_external_yaffs2" revision="ics" />
   <project path="external/zlib" name="platform/external/zlib" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="github" revision="mod" />
+  <project path="frameworks/base" name="android_frameworks_base" revision="mod" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" />
@@ -189,10 +193,10 @@
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
-  <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="github" revision="mod-4.0.3" />
+  <project path="packages/apps/Camera" name="android_packages_apps_Camera" revision="mod-4.0.3" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
-  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="github" revision="mod-4.0.3" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" revision="mod-4.0.3" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
@@ -205,18 +209,18 @@
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
-  <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="github" revision="mod-4.0.3" />
+  <project path="packages/apps/Phone" name="android_packages_apps_Phone" revision="mod-4.0.3" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="github" revision="mod-4.0.3" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" revision="mod-4.0.3" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
-  <project path="packages/apps/VoiceDialer" name="android_packages_apps_VoiceDialer" remote="github" revision="mod-4.0.3" />
+  <project path="packages/apps/VoiceDialer" name="android_packages_apps_VoiceDialer" revision="mod-4.0.3" />
   <project path="packages/experimental" name="platform/packages/experimental" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
@@ -246,25 +250,25 @@
   <project path="system/vold" name="android_system_vold" />
 
   <!--   Proprietary Apps  -->
-  <project path="packages/apps/Launcher2" name="android_packages_apps_Launcher2" remote="github" revision="4.0.3" />
-  <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="github" revision="ics" />
+  <project path="packages/apps/Launcher2" name="android_packages_apps_Launcher2" revision="4.0.3" />
+  <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" revision="ics" />
   <project path="packages/apps/FileManager" name="android_packages_apps_FileManager" />
 
   <!--     Extra Tools     -->
-  <project path="external/bash" name="android_external_bash" remote="github" revision="ics" />
-  <project path="external/busybox" name="android_external_busybox" remote="github" revision="ics" />
-  <project path="external/libncurses" name="android_external_libncurses" remote="github" revision="ics" />
-  <project path="external/lsof" name="android_external_lsof" remote="github" revision="ics" />
-  <project path="external/nano" name="android_external_nano" remote="github" revision="ics" />
-  <project path="external/openvpn" name="android_external_openvpn" remote="github" revision="ics" />
-  <project path="external/rsync" name="android_external_rsync" remote="github" revision="master" />
-  <project path="system/su" name="android_system_su" remote="github" revision="ics" />
+  <project path="external/bash" name="android_external_bash" revision="ics" />
+  <project path="external/busybox" name="android_external_busybox" revision="ics" />
+  <project path="external/libncurses" name="android_external_libncurses" revision="ics" />
+  <project path="external/lsof" name="android_external_lsof" revision="ics" />
+  <project path="external/nano" name="android_external_nano" revision="ics" />
+  <project path="external/openvpn" name="android_external_openvpn" revision="ics" />
+  <project path="external/rsync" name="android_external_rsync" revision="master" />
+  <project path="system/su" name="android_system_su" revision="ics" />
   
   <!--     Extra Apps      -->
-  <project path="packages/apps/SpeakerProximity" name="androcom_packages_apps_speakerproximity" remote="github" revision="trunk" />
+  <project path="packages/apps/SpeakerProximity" name="androcom_packages_apps_speakerproximity" revision="trunk" />
  
   <!--    CNA Squishers    -->
-  <project path="tools" name="android_tools" remote="github" revision="ics" />
+  <project path="tools" name="android_tools" revision="ics" />
 
   <!-- Proprietary Vendors -->
   <project path="vendor/htc" name="proprietary_vendor_htc" />
@@ -274,6 +278,6 @@
   <project path="vendor/cna" name="android_vendor_cna" />
   
   <!--  CNA Mod Manifiest  -->
-  <project path="android" name="android_manifest" remote="github" revision="mod-4.0.3" />
+  <project path="android" name="android_manifest" revision="mod-4.0.3" />
     
 </manifest>
