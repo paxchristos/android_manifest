@@ -185,8 +185,8 @@
   <project path="hardware/invensense" name="platform/hardware/invensense" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="github" revision="ics" />
-  <project path="hardware/qcom/display" name="android_android_hardware_qcom_display" />
-  <project path="hardware/qcom/camera" name="android_android_hardware_qcom_camera" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" />
+  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" />
   <project path="hardware/msm7k" name="android_hardware_msm7k" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" />
