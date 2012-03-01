@@ -30,7 +30,6 @@
   <project path="device/generic/goldfish" name="device/generic/goldfish" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
-  <project path="device/asus/tf101/kernel" name="android_kernel_asus_tf101" revision="codename" />
   <project path="device/htc/common" name="CyanogenMod/android_device_htc_common" remote="github" revision="gingerbread" />
   <project path="device/htc/inc" name="android_device_htc_inc" />
   <project path="device/htc/msm7x30-common" name="android_device_htc_msm7x30-common" />
