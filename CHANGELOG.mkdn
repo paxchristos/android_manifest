@@ -35,7 +35,7 @@ CHANGELOG
 * common: enabled the Notification Power Widget Enable on tablets (TDR)
 * common: improved scrolling chache for much smoother scrolling (pawitp)
 * common: zRam and Kernel samepage merging (cm - performance -> memory management)
-* common: option for always enabling battery percentage on the lock screen (whitehawkx)
+* common: option for always enabling battery percentage on the lock screen (syaoran12)
 * common: improvements made to the lockscreen to work better on both phones and tablets (codenamedroid)
 * common: phone target is now replaced with browser when compiled for tablets
 * common: camera unlock target is now always accross from the unlock target to emulate the stock android lockscreen layout
