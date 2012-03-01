@@ -5,7 +5,7 @@
            fetch="https://android.googlesource.com/" />
     
   <remote  name="cna"
-           fetch="git://github.com/CNA/"
+           fetch="http://github.com/CNA/"
            review="review.codenameandroid.com" />
    
   <remote  name="github"
