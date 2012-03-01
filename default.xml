@@ -104,7 +104,7 @@
   <project path="external/libffi" name="platform/external/libffi" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="external/libgsm" name="platform/external/libgsm" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="external/liblzf" name="platform/external/liblzf" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
-  <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
+  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="external/libpcap" name="platform/external/libpcap" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
