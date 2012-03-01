@@ -5,7 +5,7 @@
            fetch="https://android.googlesource.com/" />
     
   <remote  name="github"
-           fetch="git://github.com/CNA/"
+           fetch="http://github.com/CNA/"
            review="review.codenameandroid.com" />   
     
   <default revision="stock-4.0.3"
@@ -266,6 +266,7 @@
   <project path="tools" name="android_tools" remote="github" revision="ics" />
     
   <!-- Proprietary Vendors -->
+  <project path="vendor/asus/tf101" name="android_vendor_asus_tf101" revision="master" />
   <project path="vendor/htc" name="proprietary_vendor_htc" />
   <project path="vendor/imgtec" name="proprietary_vendor_imgtec" />
   <project path="vendor/moto" name="proprietary_vendor_moto"  />
