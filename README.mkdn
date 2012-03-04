@@ -141,14 +141,10 @@ You can do this by using these commands:
 
     (From root android directory)
     . build/envsetup.sh
-    (Go to repo you are patching, make your changes and commit)
-    szgerrit <for(new)/changes(patch set)> <branch/change-id> 
+    (Go to the repo you are patching, make your changes and commit) and use
+    git push ssh://(gerrit username)@cdn-gerrit.goo-inside.me:29418/(repo name) HEAD:refs/for/(branch name)
+    to upload your patches
 
-    repo start brancname .
-    (Make your changes and commit)
-    repo upload .
-Note: "." meaning current directory, if you remove the "." it will upload any branch changes in the whole repo.
-For more help on using this tool, use this command: repo help upload
 
 Make your changes and commit with a detailed message, starting with what you are working with (i.e. vision: Update Kernel)
 Commit your patches in a single commit. Squash multiple commit using this command: git rebase -i HEAD~<# of commits>
