@@ -41,23 +41,23 @@ CHANGELOG
 ---------
 
 ### 1.5.0
-* common: added support for the Galaxy S, Fascinate, Vibrant, Captivate, Incredible, Transformer EEE Pad, Transformer Prime,
-Xoom Euro and 3G
-* Update to Power Menu Options
- Improved torch toggle graphics and strings
- Made power off on power menu optional
- Add error message to power menu when all power menu options are disabled
- Added NavBar Buttons in Power Dialog (Zaphod-Beeblebrox)
- Improve navbar on power dialog logic:
- Separated hide navbar option from nav buttons
- Nav actions on power menu replaces the silent toggle when enabled
- Improved nab on power menu graphics
- Added recents button to nab actions
- Only show nab buttons when the navbar is hidden
- Disabled nab buttons when the lock screen is showing
- Added reset of hidden nav bar on reset (not reseting causes issues)
- Disabled power menu nav buttons the the lock screen is enabled
- Added the ability to either place the nav actions on the top or bottom of the power menu
+* common: added support for the Galaxy S, Fascinate, Vibrant, Captivate, Incredible, Transformer EEE Pad, Transformer Prime, Xoom Euro and 3G
+* Update to Power Menu Options:
+* Improved torch toggle graphics and strings
+* Made power off on power menu optional
+* Add error message to power menu when all power menu options are disabled
+* Added NavBar Buttons in Power Dialog (Zaphod-Beeblebrox)
+* Improve navbar on power dialog logic:
+* Separated hide navbar option from nav buttons
+* Nav actions on power menu replaces the silent toggle when enabled
+* Improved nab on power menu graphics
+* Added recents button to nab actions
+* Only show nab buttons when the navbar is hidden
+* Disabled nab buttons when the lock screen is showing
+* Added reset of hidden nav bar on reset (not reseting causes issues)
+* Disabled power menu nav buttons the the lock screen is enabled
+* Added the ability to either place the nav actions on the top or bottom of the power menu
+
 * common: new advanced testing menu in settings (Development settings, Spare Parts settings, and Testing settings)
 * common: use the volumer rocker as a cursor while you type (romanbb)
 * common: added the ability to long hold to uninstall the the launcher (nebkat)
