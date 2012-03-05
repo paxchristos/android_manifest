@@ -42,6 +42,7 @@ CHANGELOG
 
 ### 1.5.0
 * common: added support for the Galaxy S, Fascinate, Vibrant, Captivate, Incredible, Transformer EEE Pad, Transformer Prime, Xoom Euro and 3G
+* common: notably, even smoother and faster
 * Update to Power Menu Options:
 * Improved torch toggle graphics and strings
 * Made power off on power menu optional
@@ -58,7 +59,6 @@ CHANGELOG
 * Disabled power menu nav buttons the the lock screen is enabled
 * Added the ability to either place the nav actions on the top or bottom of the power menu
 
-* common: notably, even smoother and faster
 * common: Added SMS Split by encoding and counter at end of message with settings (Mike Wielgosz)
 * common: Added option to display contact pictures in Mms notifications (dragonzkiller)
 * common: Display contact name if available in delivery report mms notifications (kshlm)
@@ -84,7 +84,7 @@ CHANGELOG
 * common: added support for more tag types to the nfc reader (doug yeager)
 * common: updated the LTE and WiMax toggle
 * Closed out over 50 issues on the bug tracker :)
-* Galaxy Nexus (GSM/CDMA): Codename Android Kernel 1.7.2 - patched to 3.0.23, updated color code, stock volatges by default, and fast charge mod 
+* Galaxy Nexus (GSM/CDMA): Codename Android Kernel 1.7.3 - patched to 3.0.23, updated color code, stock volatges by default, and fast charge mod 
 
 ### 1.4.0
 * common: CNASettings has been merged into settings and has been completely re-writen to work better on both phones and tablets
