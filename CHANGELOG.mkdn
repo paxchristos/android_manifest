@@ -59,6 +59,10 @@ CHANGELOG
 * Added the ability to either place the nav actions on the top or bottom of the power menu
 
 * common: notably, even smoother and faster
+* common: Added SMS Split by encoding and counter at end of message with settings (Mike Wielgosz)
+* common: Added option to display contact pictures in Mms notifications (dragonzkiller)
+* common: Display contact name if available in delivery report mms notifications (kshlm)
+* common: updated the phone and contacts with the latest from CM
 * common: added optional lockscreen before the security lockscreen option (tmoskowite)
 * common: new advanced testing menu in settings (Development settings, Spare Parts settings, and Testing settings)
 * common: use the volumer rocker as a cursor while you type (romanbb)
