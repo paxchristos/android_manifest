@@ -15,9 +15,68 @@ DEVICES
 * Galaxy Nexus (GSM/CDMA) - Released
 * Nexus S (GSM/CDMA) - Released
 * Xoom (3G/4G/WiFi) - Released
+* Galaxy S (GT-I9000) - Released
+* Captivate (SGH-I896/SGH-I897) - Released
+* Fascinate (SGH-T959) - Released
+* Vibrant (SGH-T959) - Released
+* Transformer EEE Pad - Sheduled for Release
+* Transformer Prime - Sheduled for Release
+* Incredible - Sheduled for Release
+
+Maintainers:
+------------
+* Galaxy Nexus: codenamedroid, AndroidUser00110001
+* Nexus S: codenamedroid, AndroidUser00110001
+* Xoom (3G/4G/WiFi/Euro): codenamedroid
+* Galaxy S (GT-I9000): rtfpessoa, codenamedroid
+* Captivate (SGH-I896/SGH-I897): sixstringsg
+* Fascinate (SGH-T959): Stevespear426, sixstringsg
+* Vibrant (SGH-T959): sixstringsg
+* Transformer EEE Pad (TF101): timbit, Blueharford
+* Transformer Prime (TF201): Blueharford, timbit
+* Incredible: derekross, codenamedroid
+
 
 CHANGELOG
 ---------
+
+### 1.5.0
+* common: added support for the Galaxy S, Fascinate, Vibrant, Captivate, Incredible, Transformer EEE Pad, Transformer Prime,
+Xoom Euro and 3G
+* Update to Power Menu Options
+ Improved torch toggle graphics and strings
+ Made power off on power menu optional
+ Add error message to power menu when all power menu options are disabled
+ Added NavBar Buttons in Power Dialog (Zaphod-Beeblebrox)
+ Improve navbar on power dialog logic:
+ Separated hide navbar option from nav buttons
+ Nav actions on power menu replaces the silent toggle when enabled
+ Improved nab on power menu graphics
+ Added recents button to nab actions
+ Only show nab buttons when the navbar is hidden
+ Disabled nab buttons when the lock screen is showing
+ Added reset of hidden nav bar on reset (not reseting causes issues)
+ Disabled power menu nav buttons the the lock screen is enabled
+ Added the ability to either place the nav actions on the top or bottom of the power menu
+* common: new advanced testing menu in settings (Development settings, Spare Parts settings, and Testing settings)
+* common: use the volumer rocker as a cursor while you type (romanbb)
+* common: added the ability to long hold to uninstall the the launcher (nebkat)
+* common: Allow unlinking of notification sound and ringtone volume (gsarrica, romanbb) slightly modified layout codenamedroid
+* common: custom lockscreen wallpapers (romanbb)
+* common: gave power menu its own category in the interface settings (everything on the power menu is now configurable)
+* common: the ability to enable rotation on the lockscreen (romanbb)
+* common: reverted back to previous rotation settings for full 180 degree rotation
+* common: fixed big brother, little brother menu button issue when all nav buttons are enabled
+* common: the lockscreen settings menu has been updated and reorganized
+* common: added the lights level editor to the automatic backlight settings
+* common: fixed the processor settings crashing with kernels with non-configurable governors
+* common: reworked lockscreen menu unlock (tpruvot - replaces romans, better logic)
+* common: removed romanbb's version of volume key wake lock and long press volume and updated with the ones from CM
+(longpress to change tracks works with volume wake enabled)
+* common: fix alarm not setting properly with a voice action (romanbb)
+* common: fix for lockscreen unlocking after dismising an alarm (Danesh)
+* common: added support for more tag types to the nfc reader (doug yeager)
+* common: updated the LTE and WiMax toggle
 
 ### 1.4.0
 * common: CNASettings has been merged into settings and has been completely re-writen to work better on both phones and tablets
