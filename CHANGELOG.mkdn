@@ -58,6 +58,8 @@ CHANGELOG
 * Disabled power menu nav buttons the the lock screen is enabled
 * Added the ability to either place the nav actions on the top or bottom of the power menu
 
+* common: notably, even smoother and faster
+* common: added optional lockscreen before the security lockscreen option (tmoskowite)
 * common: new advanced testing menu in settings (Development settings, Spare Parts settings, and Testing settings)
 * common: use the volumer rocker as a cursor while you type (romanbb)
 * common: added the ability to long hold to uninstall the the launcher (nebkat)
@@ -77,6 +79,8 @@ CHANGELOG
 * common: fix for lockscreen unlocking after dismising an alarm (Danesh)
 * common: added support for more tag types to the nfc reader (doug yeager)
 * common: updated the LTE and WiMax toggle
+* Closed out over 50 issues on the bug tracker :)
+* Galaxy Nexus (GSM/CDMA): Codename Android Kernel 1.7.2 - patched to 3.0.23, updated color code, stock volatges by default, and fast charge mod 
 
 ### 1.4.0
 * common: CNASettings has been merged into settings and has been completely re-writen to work better on both phones and tablets
