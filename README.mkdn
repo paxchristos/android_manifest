@@ -103,7 +103,7 @@ Initialize the environment with the envsetup.sh script. Note that replacing "sou
     lunch
 
 
-Once you type in the lunch command you will be presented with a list of options to choose to build from. the “stock” builds are what you want to choose if you chose to download the stock branch and “codenamedoird” is what you want to choose if you chose to download the “modified” branch
+Once you type in the lunch command you will be presented with a list of options to choose to build from. the “stock” builds are what you want to choose if you chose to download the stock branch and “cna” is what you want to choose if you chose to download the “modified” branch
 
 
 crepso = Nexus S
@@ -114,9 +114,31 @@ maguro = Galaxy Nexus (GSM)
 
 toro = Galaxy Nexus (CDMA)
 
-stingray = Xoom 3G/4G
+stingray = Xoom 4G
+
+stingray_cdma = Xoom 3G
+
+umts_everest = Xoom Euro
 
 wingray = Xoom WiFi
+
+galaxysmtd = Galaxy S
+
+captivatemtd = Captivate
+
+fascinatemtd = Fascinate
+
+vibrantmtd = Vibrant
+
+inc = Incredible
+
+olympus = Atrix
+
+tf101 = Transformer Eee Pad (WiFi)
+
+tf101g = Transformer Eee Pad (3G)
+
+tf201 = Tranformer Prime
 
 
 Enter the number of the build you want to start and press enter
