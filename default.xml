@@ -273,6 +273,9 @@
   <project path="vendor/samsung" name="proprietary_vendor_samsung" />
   <project path="vendor/stock" name="android_vendor_stock" />
     
+  <!--  Google applications  -->
+  <project path="vendor/google/apps" name="android_vendor_google_apps" revision="master" />
+
   <!--  CNA Mod Manifiest  -->  
   <project path="android" name="android_manifest" />
     
