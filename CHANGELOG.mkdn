@@ -1,0 +1,87 @@
+Codename Android
+===============
+
+
+Follow Us
+---------
+ 
+[Google+](https://plus.google.com/b/104583231915929244830/104583231915929244830/posts)
+
+[Twitter](http://twitter.com/CodenameAndroid)
+
+DEVICES
+---------
+
+* Galaxy Nexus (GSM/CDMA) - Released
+* Nexus S (GSM/CDMA) - Released
+* Xoom (3G/4G/WiFi) - Released
+* Galaxy S (GT-I9000) - Released
+* Captivate (SGH-I896/SGH-I897) - Released
+* Fascinate (SGH-T959) - Released
+* Vibrant (SGH-T959) - Released
+* Transformer EEE Pad - Released
+* Transformer Prime - Sheduled for Release
+* Incredible - Sheduled for Release
+
+Maintainers:
+------------
+* Galaxy Nexus: codenamedroid, AndroidUser00110001
+* Nexus S: codenamedroid, AndroidUser00110001
+* Xoom (3G/4G/WiFi/Euro): codenamedroid
+* Galaxy S (GT-I9000): rtfpessoa, codenamedroid
+* Captivate (SGH-I896/SGH-I897): sixstringsg
+* Fascinate (SGH-T959): Stevespear426, sixstringsg
+* Vibrant (SGH-T959): sixstringsg
+* Transformer EEE Pad (TF101): timbit, Blueharford
+* Transformer Prime (TF201): Blueharford, timbit
+* Incredible: derekross, codenamedroid
+
+
+CHANGELOG
+---------
+
+### Codnemae Android Stock
+* Common: Built off of clean Android 4.0.3 source (Google)
+* common: fix for lockscreen unlocking after dismising an alarm (Danesh)
+* common: fix alarm not setting properly with a voice action (romanbb)
+* common: added support for more tag types to the nfc reader (doug yeager)
+* common: root is now option (cyanogen - in developer options)
+* common: Hiding media from folder with .nomedia file. (cyanogen)
+* common: improved scrolling chache for much smoother scrolling (pawitp)
+* common: Increase Zygote preload GC threshold to half the heapgrowthlimit for faster boot times (Vijay Dandiga)
+* Common: default workspance the same as google stock
+* Common: set default wallpaper as chroma
+* Common: sped up nav button animations (CrushD)
+* Common: fixed verizon wireless force close
+* Common: LOTS of code clean up and probably a few other things I forgot T_T
+* Common: Fixed Galaxy Live strings (Bugless Beast)
+* Common: Updated all dicts for ICS (blunden)
+* Common: Build.prop update for better market compatibility
+* Common: Resurrected Android Screen Candy/Android Screen Savers (when charging - display settings) - codenamedroid
+* Common: Decreased wait time for rotation - KeJar/XoomDev
+* Common: LCD-optimized text rendering - cyanogen
+* Common: Allow system user to modify cpufreq control files - NameLessJedi
+* Common: Accept all flie types for inbound bluetooth file transfers - vianney
+* Common: Download any file type - eddieringle
+* Common: Facebook sync - romanbb
+
+* Galaxy Nexus: increased speaker volume (codenamedroid)
+* Galaxy Nexus (GSM): distinguishes between 3G and hspa
+* Galaxy Nexus (CDMA): 4.0.4 proprietary files
+* Galaxy Nexus (CDMA): Compatability with verizon wireless apps fixed (MyVerizon, NFL Mobile)
+* Galaxy Nexus: Hardware Rendering by default - KalimochoAz
+* Nexus S (4G): Fix file downloads via browser over WiMax - burnsra
+* Nexus S (CDMA): 4.0.4 proprietarie files
+
+
+Exta Tools (Provided by CM):
+
+Bash/
+Lsof/
+Nano/
+OpenVPN/
+libncurses/
+Busybox/
+Rsync/
+Superuser app - ChainsDD
+
