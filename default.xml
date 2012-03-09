@@ -23,6 +23,7 @@
   <project path="dalvik" name="platform/dalvik" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="development" name="android_development" />
   <project path="device/asus/tf101" name="android_device_asus_tf101" />
+  <project path="device/asus/tf201" name="android_device_asus_tf201" revision="ics" />
   <project path="device/common" name="device/common" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
@@ -267,6 +268,7 @@
     
   <!-- Proprietary Vendors -->
   <project path="vendor/asus/tf101" name="android_vendor_asus_tf101" revision="master" />
+  <project path="vendor/asus/tf201" name="vendor_proprietary_asus_tf201" revision="ics" />
   <project path="vendor/htc" name="proprietary_vendor_htc" />
   <project path="vendor/imgtec" name="proprietary_vendor_imgtec" />
   <project path="vendor/moto" name="proprietary_vendor_moto"  />
