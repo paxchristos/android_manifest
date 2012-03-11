@@ -184,6 +184,7 @@
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="hardware/ril" name="android_hardware_ril" />
+  <project path="hardware/samsung" name="android_hardware_samsung" revision="ics" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="libcore" name="platform/libcore" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
