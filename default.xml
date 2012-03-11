@@ -41,6 +41,7 @@
   <project path="device/samsung/crespo" name="android_device_samsung_crespo" />
   <project path="device/samsung/crespo4g" name="android_device_samsung_crespo4g" />
   <project path="device/samsung/fascinatemtd" name="android_device_samsung_fascinatemtd" />
+  <project path="device/samsung/galaxys2" name="android_device_samsung_galaxys2" revision="ics" />
   <project path="device/samsung/galaxysmtd" name="android_device_samsung_galaxysmtd" />
   <project path="device/samsung/maguro" name="android_device_samsung_maguro" />
   <project path="device/samsung/toro" name="android_device_samsung_toro" />
