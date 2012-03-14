@@ -63,7 +63,7 @@ CHANGELOG
 * common: added more languages to the keyboard
 * common: updated the apn lists (sixstringsg)
 * common: added support for the 3G variant of the EEE Pad Transformer
-* Galaxy Nexus: updated kernel to Codename Android 1.8.1 (
+* Galaxy Nexus: updated kernel to Codename Android 1.8.1 (add deep idle by ezekeel, updated sound control, and returned to ultra low voltages)
 * Galaxy S (GT-I9000): Special Device Settings (CM)
 * Fascinate (SGH-T959): fixed data
 * Fascinate (SGH-T959): Special Device Settings (CM)
