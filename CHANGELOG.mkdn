@@ -65,12 +65,12 @@ CHANGELOG
 * common: added support for the 3G variant of the EEE Pad Transformer
 * Galaxy Nexus: updated kernel to Codename Android 1.8.1 (add deep idle by ezekeel, updated sound control, and returned to ultra low voltages)
 * Galaxy S (GT-I9000): Special Device Settings (CM)
-* Fascinate (SGH-T959): fixed data
+* Fascinate (SGH-T959): fixed data (sixstringsg)
 * Fascinate (SGH-T959): Special Device Settings (CM)
-* Fascinate (SGH-T959): updated kernel
-* Captivate (SGH-I896/SGH-I897): updated kernel
+* Fascinate (SGH-T959): updated kernel (sixstringsg)
+* Captivate (SGH-I896/SGH-I897): updated kernel (sixstringsg)
 * Captivate (SGH-I896/SGH-I897): Special Device Settings (CM)
-* Vibrant (SGH-T959): updated kernel
+* Vibrant (SGH-T959): updated kernel (sixstringsg)
 * Vibrant (SGH-T959): Special Device Settings (CM)
 
 ### 1.5.0
