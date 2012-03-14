@@ -40,6 +40,39 @@ Maintainers:
 CHANGELOG
 ---------
 
+### 1.5.5
+* common: a lot of menu re-organization to give and even better user experience
+* common: lockscreen is now split into to seperat menus: style and options
+* common: custom text color on the lockscreen (JBirdVegas)
+* common: ability to set cutom profiles (David van Tonder)
+* common: new customizable signal bar settings (Robert Burns)
+* common: configurable size of the navigation bar (romanbb)
+* common: added the centered stock lockscreen layout to the lockscreen settings
+* common: ability to set transparency for the statusbar (JBirdVegas)
+* common: new fully configurable rotation animations (Robert Burns)
+* common: T9 is now turned off by default in the dialpad settings
+* common: ability to show/hide homescreen icon labels (kyle ladd)
+* common: added the propmodder (JBirdVegas - the ability the make changes to your build.prop with a user interface - Settings -> Advanced Testing)
+* common: ability to exit to the homescreen after a call (Zaphod-Beeblebrox)
+* common: ability to enable the use of the status bar during a call (Zaphod-Beeblebrox)
+* common: added end call button to notification curtain (Zaphod-Beeblebrox)
+* common: updated the speaker promitiy for ICS (codenamedroid)
+* common: settings for alowing users to switch between the sdcard and internal storage (rmcc - Settings -> Storage) 
+* common: added the option to toggle fast charging mode (JBirdVegas)
+* common: made sure that the powermenu nav actions are always hidden on the tablet builds
+* common: added more languages to the keyboard
+* common: updated the apn lists (sixstringsg)
+* common: added support for the 3G variant of the EEE Pad Transformer
+* Galaxy Nexus: updated kernel to Codename Android 1.8.1 (
+* Galaxy S (GT-I9000): Special Device Settings (CM)
+* Fascinate (SGH-T959): fixed date
+* Fascinate (SGH-T959): Special Device Settings (CM)
+* Fascinate (SGH-T959): updated kernel
+* Captivate (SGH-I896/SGH-I897): updated kernel
+* Captivate (SGH-I896/SGH-I897): Special Device Settings (CM)
+* Vibrant (SGH-T959): updated kernel
+* Vibrant (SGH-T959): Special Device Settings (CM)
+
 ### 1.5.0
 * common: added support for the Galaxy S, Fascinate, Vibrant, Captivate, Incredible, Transformer EEE Pad, Transformer Prime, Xoom Euro and 3G
 * common: notably, even smoother and faster
