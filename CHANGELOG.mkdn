@@ -62,8 +62,12 @@ CHANGELOG
 * common: made sure that the powermenu nav actions are always hidden on the tablet builds
 * common: added more languages to the keyboard
 * common: updated the apn lists (sixstringsg)
+* common: fixes chrome install for all builds
+* common: fixes any issues with volume wake and the flashlight toggle
 * common: added support for the 3G variant of the EEE Pad Transformer
+* tablet: all non tablet specific options have been removed
 * Galaxy Nexus: updated kernel to Codename Android 1.8.1 (add deep idle by ezekeel, updated sound control, and returned to ultra low voltages)
+* Xoom: the return of facelock with the google apps package
 * Galaxy S (GT-I9000): Special Device Settings (CM)
 * Fascinate (SGH-T959): fixed data (sixstringsg)
 * Fascinate (SGH-T959): Special Device Settings (CM)
