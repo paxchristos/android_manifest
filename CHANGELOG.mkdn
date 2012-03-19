@@ -48,7 +48,7 @@ CHANGELOG
 * common: new customizable signal bar settings (Robert Burns)
 * common: configurable size of the navigation bar (romanbb)
 * common: added the centered stock lockscreen layout to the lockscreen settings
-* common: ability to set transparency for the statusbar (JBirdVegas)
+* common: ability to set transparency for the statusbar (Rob43)
 * common: new fully configurable rotation animations (Robert Burns)
 * common: T9 is now turned off by default in the dialpad settings
 * common: ability to show/hide homescreen icon labels (kyle ladd)
