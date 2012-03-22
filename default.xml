@@ -298,5 +298,7 @@
 
   <!--  CNA Mod Manifiest  -->
   <project path="android" name="android_manifest" revision="mod-4.0.3" />
-    
+
+  <!--  Sixstring's buildbot  -->  
+  <project path="vendor/cna/bot" name="sixstringsg/pseudo_buildbot" remote="github" revision="master" />
 </manifest>
