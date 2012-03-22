@@ -36,6 +36,10 @@ Maintainers:
 * Transformer Prime (TF201): Blueharford, timbit
 * Incredible: derekross, codenamedroid
 
+Translators:
+------------
+* Korean: SoHyunSeop
+
 
 CHANGELOG
 ---------
