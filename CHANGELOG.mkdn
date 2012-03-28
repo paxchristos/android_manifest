@@ -41,8 +41,112 @@ Translators:
 * Korean: SoHyunSeop
 
 
+FEATURE LIST
+---------
+
+Customizable Power Menu (reboot, profiles, screenshot, airplane mode, torch, navigation bar toggle, and silent toggle)
+Statusbar Power Widget: (long press statusbar settings button to enable/disable - toggle Sleep, Media Buttons, Airplane Mode, Bluetooth, Brightness, GPS, LED Flashlight, LTE, Mobiledata, Sound, Sync WiFi, WiFi AP, and WiMAX)
+Customizable Battery Status (icon style and miui style battery bar)
+Customizable Clock (clock style, am/pm style, clock color, and toggleable alarm clock icon)
+Customizable Signal Status (style)
+Customizable number of lockscreen targets
+Customizable lockscreen layout
+Customizable lockscreen text color
+Configurable lockscreen wallpaper
+Ability to unlock with menu
+Quick pin unlock (unlock with pin/password without pressing ok)
+Lockscreen before unlock (extra lockscreen before the PIN face lock, pattern, or password lockscreen)
+Ability to enable rotation on the lockscreen
+Sound toggle for camera (replaces the camera unlock target with one for toggling the sound settings)
+Volume wake (tap either the up ordown volume key to wake your phone from sleep)
+Volume music controls (long press volume buttons to skip tracks)
+Wait to lock screen (use androids timeout setting after you manually turn the screen off)
+Customizable Navigation Bar:
+- menu button visibility and location
+- number of navigation buttons
+- order of navigation buttons
+- color of navigation buttons
+- navigation bar size
+- button glow animation speed
+- navigation button transparency
+Custom Automatic Backlight Settings
+Customizable Rotation Modes
+Customizable Screen On/Off Animations
+Customizable LED Pulse (Duration and Color)
+USB Fast Charge Mode
+Ability to enable extra volume options (pressing the volume opens sliders for ringtone, alarms, notifications, and media sounds)
+Customizable Custom Carrier Label
+Customizable Statusbar Transparency
+Optional WebOs Style Recents List
+Performance Settings:
+- Start-Up Tweaks (configurable tweaks that run at boot - zipalign apps, enable sd card boost, fix permission, clear cache, enable sysctl, enable scheduled tasks)
+- Processor Speed (change cpu governor and clock speed)
+- Processor Voltage (changes cpu voltage of each frequency)
+- Memory Management (customize the usage of memory to alter system performance0
+- Disable boot animation (skip the boot animation for a faster boot)
+Custom Profiles (assign different profiles to change the behavior of your phone to your liking)
+Quiet Hours (the ability to set when and how notification sounds, haptic feedback, vibration and notification light will function between a certain times e.g. "Quiet Hours")
+Custom Launcher: (Originally built off of Trebuchet)
+- customizable number of homescreens
+- customizable default homescreen
+- removable search bar
+- ability to resize any widget
+- ability to hide icon lablels
+- configurable transition effects
+- ability to enable rotation
+Ability to unlink volumes and mute states
+Ability to turn off the USB debugging notification
+ADB over Network (enable TCP/IP debugging over Network interfaces (WiFi, Usb networks) )
+Configurable root access (disabled, apps only, ADB only, or Apps and ADB)
+Optional Long Press Back to Kill Apps
+Advanced Testing:
+- Configurable Build.Prop
+- Spare Parts Settings
+- Development Settings
+- Testing Settings
+
+Extra Tools:
+Superuser app
+Busybox
+Bash
+Rsync
+Lsof
+Nano
+libncurses
+
+
 CHANGELOG
 ---------
+
+### 1.6.0
+* new devices: Samsung Galaxy S2/S2 ATT, Droid Incredible, Droid Incredible 2, Acer Iconia
+* common: full korean translations (SoHyunSeop)
+* common: much nicer looking statusbar power widget (syaoran, kejar, codenamedroid)
+* common: Quiet Hours has been moved to the top of the settings menu
+* common: added new time range preference to Quiet Hours (DvTonder)
+* common: switched to new tabs layout for Profiles (DvTonder)
+* common: long press statusbar settings icon to enable/disable statusbar power widget (syaoran)
+* common: ability to add extra volume options to the volume rocker (Stevespear426, tmoskowie)
+* common: added zoom with volume option to the camera (MrDomopanda, Stevespear426)
+* common: navigation button transparency (romanbb)
+* common: added back the power menu nav actions logic from 1.5.0
+* common: added haptic feedback conformation on long-hold over trash to delete an application  (nebkat)
+* common: updated apns for showcase and mesmerize MMS (sixstringsg)
+* common: added support for Virgin Mobile MMS (wtogami)
+* common: updated to the latest google apps
+* common: Start-Up Tweaks has been update to a fragment and is now available on the tablet builds (codenamedroid)
+* common: reverted some of the sound cleanup from 1.5.5 (no more duplicate sounds, only ICS sounds and ringtones included)
+* common: fixed quick pin unlock issue with password and pins greater than 8 characters (Danesh)
+* common: fixed the editing of the apn settings
+* common: fixed issue with a few photo editing effects
+* common: fixed the display of contractions in the email app
+* Samsung Fascinate: updated kernel (steavespear426)
+* Samsung Fascinate: fix compass (steavespear426)
+* Samsung Fascinate: updated fix for sms on cdma samsung phones
+* EEE Pad Transformer: enabled dock battery support
+* EEE Pad Transformer: new battery widget from asus
+* EEE Pad Transformer: keyboard button mapping
+
 
 ### 1.5.5
 * common: a lot of menu re-organization to give and even better user experience
