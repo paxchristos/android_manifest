@@ -265,7 +265,7 @@
   <project path="system/su" name="android_system_su" remote="github" revision="ics" />
     
   <!--    CNA Squishers    -->
-  <project path="tools" name="android_tools" remote="github" revision="ics" />
+  <project path="tools" name="android_tools" remote="github" />
     
   <!-- Proprietary Vendors -->
   <project path="vendor/asus/tf101" name="android_vendor_asus_tf101" revision="master" />
