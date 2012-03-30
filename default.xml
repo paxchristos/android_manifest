@@ -296,7 +296,7 @@
   <project path="vendor/motorola" name="proprietary_vendor_motorola" revision="ics" />
 
   <!--  Google applications  -->
-  <project path="vendor/google/apps" name="android_vendor_google_apps" revision="master" />
+  <project path="vendor/google/apps" name="android_vendor_google_apps" />
 
   <!--  CNA Mod Manifiest  -->
   <project path="android" name="android_manifest" revision="mod-4.0.3" />
