@@ -269,7 +269,7 @@
   <project path="packages/apps/Launcher2" name="android_packages_apps_Launcher2" revision="4.0.3" />
   <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" revision="ics" />
   <project path="packages/apps/SpeakerProximity" name="androcom_packages_apps_speakerproximity" revision="trunk" />
-  <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" revision="ics" />
+  <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" />
   <project path="packages/apps/FileManager" name="android_packages_apps_FileManager" />
 
   <!--     Extra Tools     -->
