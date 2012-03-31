@@ -250,7 +250,7 @@
 
   <!-- Proprietary Vendors -->
   <project path="vendor/cna" name="android_vendor_cna" remote="cna" revision="stock-4.0.4" />
-  <project path="vendor/google/apps" name="android_vendor_google_apps" remote="cna" revision="stock-4.0.4" />
+  <project path="vendor/google" name="android_vendor_google_apps" remote="cna" revision="stock-4.0.4" />
   <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="cna" revision="stock-4.0.4" />
   <project path="vendor/moto" name="proprietary_vendor_moto" remote="cna" revision="stock-4.0.4" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="cna" revision="stock-4.0.4" />
