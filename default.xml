@@ -274,7 +274,7 @@
 
   <!--     Extra Tools     -->
   <project path="external/bash" name="android_external_bash" revision="ics" />
-  <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
+  <project path="external/busybox" name="android_external_busybox" />
   <project path="external/libncurses" name="android_external_libncurses" revision="ics" />
   <project path="external/lsof" name="android_external_lsof" revision="ics" />
   <project path="external/nano" name="android_external_nano" revision="ics" />
