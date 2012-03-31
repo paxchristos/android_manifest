@@ -209,6 +209,7 @@
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
+  <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="cna" revision="stock-4.0.4" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
@@ -242,23 +243,16 @@
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
 
-  <!--   Proprietary Apps  -->
-  <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="cna" revision="stock-4.0.4" />
+  <!--     Extra Tools     -->
+  <project path="external/busybox" name="android_external_busybox" remote="cna" revision="stock-4.0.4" />
+  <project path="system/su" name="android_system_su" remote="cna" revision="stock-4.0.4" />
+  <project path="tools" name="android_tools" remote="cna" revision="stock-4.0.4" />
 
   <!-- Proprietary Vendors -->
   <project path="vendor/cna" name="android_vendor_cna" remote="cna" revision="stock-4.0.4" />
+  <project path="vendor/google/apps" name="android_vendor_google_apps" remote="cna" revision="stock-4.0.4" />
   <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="cna" revision="stock-4.0.4" />
   <project path="vendor/moto" name="proprietary_vendor_moto" remote="cna" revision="stock-4.0.4" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="cna" revision="stock-4.0.4" />
-
-  <!--      Extra Tools     -->
-  <project path="external/busybox" name="android_external_busybox" remote="cna" revision="stock-4.0.4" />
-  <project path="system/su" name="android_system_su" remote="cna" revision="stock-4.0.4" />
-
-  <!--     CNA Squishers    -->
-  <project path="tools" name="android_tools" remote="cna" revision="stock-4.0.4" />
-
-  <!--      Google Apps     -->
-  <project path="vendor/google/apps" name="android_vendor_google_apps" remote="cna" revision="stock-4.0.4" />
 
 </manifest>
