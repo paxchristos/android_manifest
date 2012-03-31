@@ -9,7 +9,7 @@
            review="review.codenameandroid.com" />
    
   <remote  name="github"
-           fetch="git://github.com/" />
+           fetch="http://github.com/" />
     
   <default revision="stock-4.0.3"
            remote="cna"
