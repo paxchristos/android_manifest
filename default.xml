@@ -124,7 +124,7 @@
   <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/proguard" name="platform/external/proguard" />
   <project path="external/protobuf" name="platform/external/protobuf" />
-  <project path="external/qemu" name="platform/external/qemu" />
+  <project path="external/qemu" name="android_external_qemu" remote="cna" revision="stock-4.0.4" />
   <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" />
   <project path="external/quake" name="platform/external/quake" />
   <project path="external/replicaisland" name="platform/external/replicaisland" />
@@ -157,7 +157,7 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="cna" revision="stock-4.0.4" />
   <project path="frameworks/compile/libbcc" name="android_frameworks_compile_libbcc" remote="cna" revision="stock-4.0.4" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
-  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
+  <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" remote="cna" revision="stock-4.0.4" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/media/libvideoeditor" name="platform/frameworks/media/libvideoeditor" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
