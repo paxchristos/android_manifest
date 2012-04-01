@@ -275,7 +275,7 @@
   <!--     Extra Tools     -->
   <project path="external/bash" name="android_external_bash" revision="ics" />
   <project path="external/busybox" name="android_external_busybox" />
-  <project path="external/libncurses" name="android_external_libncurses" revision="ics" />
+  <project path="external/libncurses" name="android_external_libncurses" />
   <project path="external/lsof" name="android_external_lsof" revision="ics" />
   <project path="external/nano" name="android_external_nano" revision="ics" />
   <project path="external/openvpn" name="android_external_openvpn" revision="ics" />
