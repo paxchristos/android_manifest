@@ -275,7 +275,7 @@
   <project path="external/libncurses" name="android_external_libncurses" />
   <project path="external/lsof" name="android_external_lsof" />
   <project path="external/nano" name="android_external_nano" />
-  <project path="external/openvpn" name="android_external_openvpn" revision="ics" />
+  <project path="external/openvpn" name="android_external_openvpn" />
   <project path="external/rsync" name="android_external_rsync" revision="master" />
   <project path="system/su" name="android_system_su" revision="ics" />
   <project path="tools" name="android_tools" />
