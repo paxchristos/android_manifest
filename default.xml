@@ -244,7 +244,16 @@
   <project path="system/vold" name="platform/system/vold" />
 
   <!--     Extra Tools     -->
+  <project path="external/bash" name="android_external_bash" remote="cna" revision="stock-4.0.4" />
   <project path="external/busybox" name="android_external_busybox" remote="cna" revision="stock-4.0.4" />
+  <project path="external/libncurses" name="android_external_libncurses" remote="cna" revision="stock-4.0.4" />
+  <project path="external/lsof" name="android_external_lsof" remote="cna" revision="stock-4.0.4" />
+  <project path="external/lzo" name="ndroid_external_lzo" remote="cna" revision="stock-4.0.4" />
+  <project path="external/nano" name="android_external_nano" remote="cna" revision="stock-4.0.4" />
+  <project path="external/openvpn" name="android_external_openvpn" remote="cna" revision="stock-4.0.4" />
+  <project path="external/rsync" name="android_external_rsync" remote="cna" revision="stock-4.0.4" />
+  <project path="external/wireless-tools" name="android_external_wireless-tools" remote="cna" revision="stock-4.0.4" />
+  <project path="external/vim" name="android_external_vim" remote="cna" revision="stock-4.0.4" />
   <project path="system/su" name="android_system_su" remote="cna" revision="stock-4.0.4" />
   <project path="tools" name="android_tools" remote="cna" revision="stock-4.0.4" />
 
