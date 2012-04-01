@@ -19,7 +19,7 @@
   <project path="bionic" name="android_bionic" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="github" revision="ics" />
+  <project path="bootable/recovery" name="android_bootable_recovery" />
   <project path="dalvik" name="platform/dalvik" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="development" name="android_development" />
   <project path="device/asus/tf101" name="android_device_asus_tf101" />
