@@ -258,7 +258,7 @@
   <project path="external/bash" name="android_external_bash" />
   <project path="external/busybox" name="android_external_busybox" />
   <project path="external/libncurses" name="android_external_libncurses" />
-  <project path="external/lsof" name="android_external_lsof" remote="github" revision="ics" />
+  <project path="external/lsof" name="android_external_lsof" />
   <project path="external/nano" name="android_external_nano" remote="github" revision="ics" />
   <project path="external/openvpn" name="android_external_openvpn" remote="github" revision="ics" />
   <project path="external/rsync" name="android_external_rsync" remote="github" revision="master" />
