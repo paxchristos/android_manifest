@@ -261,7 +261,7 @@
   <project path="external/lsof" name="android_external_lsof" />
   <project path="external/nano" name="android_external_nano" />
   <project path="external/openvpn" name="android_external_openvpn" />
-  <project path="external/rsync" name="android_external_rsync" remote="github" revision="master" />
+  <project path="external/rsync" name="android_external_rsync" />
   <project path="system/su" name="android_system_su" remote="github" revision="ics" />
     
   <!--    CNA Squishers    -->
