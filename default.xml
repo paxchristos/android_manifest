@@ -281,22 +281,18 @@
   <project path="external/openvpn" name="android_external_openvpn" revision="ics" />
   <project path="external/rsync" name="android_external_rsync" revision="master" />
   <project path="system/su" name="android_system_su" revision="ics" />
-
-  <!--    CNA Squishers    -->
   <project path="tools" name="android_tools" />
 
   <!-- Proprietary Vendors -->
   <project path="vendor/asus/tf101" name="android_vendor_asus_tf101" revision="master" />
   <project path="vendor/asus/tf201" name="vendor_proprietary_asus_tf201" revision="ics" />
+  <project path="vendor/cna" name="android_vendor_cna" />
+  <project path="vendor/google/apps" name="android_vendor_google_apps" />
   <project path="vendor/htc" name="proprietary_vendor_htc" />
   <project path="vendor/imgtec" name="proprietary_vendor_imgtec" />
   <project path="vendor/moto" name="proprietary_vendor_moto"  />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" />
-  <project path="vendor/cna" name="android_vendor_cna" />
   <project path="vendor/motorola" name="proprietary_vendor_motorola" revision="ics" />
-
-  <!--  Google applications  -->
-  <project path="vendor/google/apps" name="android_vendor_google_apps" />
 
   <!--  CNA Mod Manifiest  -->
   <project path="android" name="android_manifest" revision="mod-4.0.3" />
