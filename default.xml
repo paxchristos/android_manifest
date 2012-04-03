@@ -33,8 +33,11 @@
   <project path="device/samsung/captivatemtd" name="android_device_samsung_captivatemtd" remote="cna" revision="stock-4.0.4" />
   <project path="device/samsung/crespo" name="android_device_samsung_crespo" remote="cna" revision="stock-4.0.4" />
   <project path="device/samsung/crespo4g" name="android_device_samsung_crespo4g" remote="cna" revision="stock-4.0.4" />
-  <project path="device/samsung/galaxysmtd" name="android_device_samsung_galaxysmtd" remote="cna" revision="stock-4.0.4" />
+  <project path="device/samsung/epic4gtouch" name="android_device_samsung_epic4gtouch" remote="cna" revision="stock-4.0.4" />
   <project path="device/samsung/fascinatemtd" name="android_device_samsung_fascinatemtd" remote="cna" revision="stock-4.0.4" />
+  <project path="device/samsung/galaxys2" name="android_device_samsung_galaxys2" remote="cna" revision="stock-4.0.4" />
+  <project path="device/samsung/galaxysmtd" name="android_device_samsung_galaxysmtd" remote="cna" revision="stock-4.0.4" />
+  <project path="device/samsung/i777" name="android_device_samsung_i777" remote="cna" revision="stock-4.0.4" />
   <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="cna" revision="stock-4.0.4" />
   <project path="device/samsung/torospr" name="android_device_samsung_torospr" remote="cna" revision="stock-4.0.4" />
   <project path="device/samsung/toro" name="android_device_samsung_toro" remote="cna" revision="stock-4.0.4" />
@@ -180,6 +183,7 @@
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
   <project path="hardware/ril" name="android_hardware_ril" remote="cna" revision="stock-4.0.4" />
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="cna" revision="stock-4.0.4" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
   <project path="libcore" name="platform/libcore" />
