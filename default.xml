@@ -21,6 +21,8 @@
   <project path="bootable/recovery" name="android_bootable_recovery" remote="cna" revision="stock-4.0.4" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
+  <project path="device/asus/tf101" name="android_device_asus_tf101" remote="cna" revision="stock-4.0.4" />
+  <project path="device/asus/tf201" name="android_device_asus_tf201" remote="cna" revision="stock-4.0.4" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" />
@@ -268,6 +270,8 @@
   <project path="tools" name="android_tools" remote="cna" revision="stock-4.0.4" />
 
   <!-- Proprietary Vendors -->
+  <project path="vendor/asus/tf101" name="android_vendor_asus_tf101" remote="cna" revision="stock-4.0.4" />
+  <project path="vendor/asus/tf201" name="vendor_proprietary_asus_tf201" remote="cna" revision="stock-4.0.4" />
   <project path="vendor/cna" name="android_vendor_cna" remote="cna" revision="stock-4.0.4" />
   <project path="vendor/google" name="android_vendor_google_apps" remote="cna" revision="stock-4.0.4" />
   <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="cna" revision="stock-4.0.4" />
