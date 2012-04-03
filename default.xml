@@ -15,7 +15,7 @@
            remote="cna"
            sync-j="4" />
     
-  <project path="build" name="android_build" revision="stock-4.0.3" >
+  <project path="build" name="android_build" >
     <copyfile src="core/root.mk" dest="Makefile" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
@@ -26,7 +26,7 @@
   <project path="dalvik" name="platform/dalvik" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="development" name="android_development" />
   <project path="device/asus/tf101" name="android_device_asus_tf101" />
-  <project path="device/asus/tf201" name="android_device_asus_tf201" revision="ics" />
+  <project path="device/asus/tf201" name="android_device_asus_tf201" />
   <project path="device/common" name="device/common" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
@@ -281,8 +281,8 @@
   <project path="tools" name="android_tools" />
 
   <!-- Proprietary Vendors -->
-  <project path="vendor/asus/tf101" name="android_vendor_asus_tf101" revision="master" />
-  <project path="vendor/asus/tf201" name="vendor_proprietary_asus_tf201" revision="ics" />
+  <project path="vendor/asus/tf101" name="android_vendor_asus_tf101" />
+  <project path="vendor/asus/tf201" name="vendor_proprietary_asus_tf201" />
   <project path="vendor/cna" name="android_vendor_cna" />
   <project path="vendor/google/apps" name="android_vendor_google_apps" />
   <project path="vendor/htc" name="proprietary_vendor_htc" />
