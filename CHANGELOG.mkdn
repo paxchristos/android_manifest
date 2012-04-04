@@ -40,8 +40,8 @@ Maintainers:
 CHANGELOG
 ---------
 
-### Codnemae Android Stock
-* Common: Built off of clean Android 4.0.3 source (Google)
+### Codename Android Stock
+* common: Built off of clean Android 4.0.3 source (Google)
 * common: fix for lockscreen unlocking after dismising an alarm (Danesh)
 * common: fix alarm not setting properly with a voice action (romanbb)
 * common: added support for more tag types to the nfc reader (doug yeager)
@@ -49,21 +49,21 @@ CHANGELOG
 * common: Hiding media from folder with .nomedia file. (cyanogen)
 * common: improved scrolling chache for much smoother scrolling (pawitp)
 * common: Increase Zygote preload GC threshold to half the heapgrowthlimit for faster boot times (Vijay Dandiga)
-* Common: default workspance the same as google stock
-* Common: set default wallpaper as chroma
-* Common: sped up nav button animations (CrushD)
-* Common: fixed verizon wireless force close
-* Common: LOTS of code clean up and probably a few other things I forgot T_T
-* Common: Fixed Galaxy Live strings (Bugless Beast)
-* Common: Updated all dicts for ICS (blunden)
-* Common: Build.prop update for better market compatibility
-* Common: Resurrected Android Screen Candy/Android Screen Savers (when charging - display settings) - codenamedroid
-* Common: Decreased wait time for rotation - KeJar/XoomDev
-* Common: LCD-optimized text rendering - cyanogen
-* Common: Allow system user to modify cpufreq control files - NameLessJedi
-* Common: Accept all flie types for inbound bluetooth file transfers - vianney
-* Common: Download any file type - eddieringle
-* Common: Facebook sync - romanbb
+* common: default workspance the same as google stock
+* common: set default wallpaper as chroma
+* common: sped up nav button animations (CrushD)
+* common: fixed verizon wireless force close
+* common: LOTS of code clean up and probably a few other things I forgot T_T
+* common: Fixed Galaxy Live strings (Bugless Beast)
+* common: Updated all dicts for ICS (blunden)
+* common: Build.prop update for better market compatibility
+* common: Resurrected Android Screen Candy/Android Screen Savers (when charging - display settings) - codenamedroid
+* common: Decreased wait time for rotation - KeJar/XoomDev
+* common: LCD-optimized text rendering - cyanogen
+* common: Allow system user to modify cpufreq control files - NameLessJedi
+* common: Accept all flie types for inbound bluetooth file transfers - vianney
+* common: Download any file type - eddieringle
+* common: Facebook sync - romanbb
 
 * Galaxy Nexus: increased speaker volume (codenamedroid)
 * Galaxy Nexus (GSM): distinguishes between 3G and hspa
