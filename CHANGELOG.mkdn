@@ -308,37 +308,37 @@ switching search for recents
 
 
 ### 1.2.0
-* Common: default workspance now the same as google stock
-* Common: new transistions and effects in the launcher for the app drawer and workspace (nebkat)
-* Common: updated pulse notifications to use the colorpicker (now moved to interface settings)
-* Common: added back the 4-target lockscreen and a new 4-target that unlocks to the right
-* Common: new ics blue power widget icons (AndroidUser001100001)
-* Common: added volume wake to lockscreen (Evervolv)
-* Common: added setting for 180 degree rotation (cm/romanbb)
-* Common: added back and updated the performance settings and added start-up settings and memory tweaks (cm/kejar)
-* Common: set default wallpaper as chroma
-* Common: lots of cleanup and reorganization
-* Common: fixed sounds for all correct ics sounds
-* Common: fixed issue with lightflow and the custom lockscreens
-* Common: lots more that I forget but will update as the amnesia wears off O_O
+* common: default workspance now the same as google stock
+* common: new transistions and effects in the launcher for the app drawer and workspace (nebkat)
+* common: updated pulse notifications to use the colorpicker (now moved to interface settings)
+* common: added back the 4-target lockscreen and a new 4-target that unlocks to the right
+* common: new ics blue power widget icons (AndroidUser001100001)
+* common: added volume wake to lockscreen (Evervolv)
+* common: added setting for 180 degree rotation (cm/romanbb)
+* common: added back and updated the performance settings and added start-up settings and memory tweaks (cm/kejar)
+* common: set default wallpaper as chroma
+* common: lots of cleanup and reorganization
+* common: fixed sounds for all correct ics sounds
+* common: fixed issue with lightflow and the custom lockscreens
+* common: lots more that I forget but will update as the amnesia wears off O_O
 * Nexus S: fixed battery percentage option
 * Galaxy Nexus : auto backlight now on by default 
 * Galaxy Nexus : New Codename Android Kernel 1.0.2!! (Blueharford - our new kernel developer) interactivex is my favorite ;)
 
 ### 1.1.4
-* Common: Added Six and Eight Target Lockscreens (codenamedroid/link)
-* Common: method to switch back and forth between lockscreens (Whitehawkx)
-* Common: layout for the unhidden eight lockscreen targets (arrtoodeetoo)
-* Common: added the chevron back on the lockscreen (the unlock ripple)
-* Common: Added the option to disable the bootanimation (cm)
-* Common: Added the miui batter bar (miui, cm, and romanbb for the custom colors)
-* Common: Added new stack transition effect to the launcher (nebkat)
-* Common: Added ability to hide the dock spacing line in the launcher (nebkat)
-* Common: added the set button back and made a few changes to the hex color picker layout(codenamedroid)
-* Common: changed powerwidget background color to black
-* Common: sped up nav button animations (CrushD)
-* Common: fixed verizon wireless force close
-* Common: LOTS of code clean up and probably a few other things I forgot T_T
+* common: Added Six and Eight Target Lockscreens (codenamedroid/link)
+* common: method to switch back and forth between lockscreens (Whitehawkx)
+* common: layout for the unhidden eight lockscreen targets (arrtoodeetoo)
+* common: added the chevron back on the lockscreen (the unlock ripple)
+* common: Added the option to disable the bootanimation (cm)
+* common: Added the miui batter bar (miui, cm, and romanbb for the custom colors)
+* common: Added new stack transition effect to the launcher (nebkat)
+* common: Added ability to hide the dock spacing line in the launcher (nebkat)
+* common: added the set button back and made a few changes to the hex color picker layout(codenamedroid)
+* common: changed powerwidget background color to black
+* common: sped up nav button animations (CrushD)
+* common: fixed verizon wireless force close
+* common: LOTS of code clean up and probably a few other things I forgot T_T
 * Galaxy Nexus (CDMA): Fix that all soo elusive space in build.prop
 
 ### 1.1.1
@@ -350,22 +350,22 @@ https://github.com/peteralfonso/platform_vendor_pete/commit/a19d2a56ccf07b9ab53a
 https://github.com/peteralfonso/platform_vendor_pete/commit/e267325a169c62a8a513af49ed7da7dab53bf715
 
 ### 1.1.0
-* Common: long press volume when screen locked to skip tracks (cm)
-* Common: custom app for sms on lockscreen (romanbb)
-* Common: update to add hex color input the color picker (romanbb - modded by CND)
-* Common: Add Screenshot Option on Power Menu (CM - but modified for 4.0.3)
-* Common: Switched to prebuilt Superuser (there are still a few issues in the from source branch)
-* Common: Switched to xoomdev's battery percentage (now bettery mod friendly)
-* Common: Fixed Galaxy Live strings (Bugless Beast)
-* Common: disabled hot bluetooth switching to stop massive battery drain O_O
-* Common: Added the ability to customize the grid size in the launcher (Danesh M)
-* Common: updated Google Apps (CND originally built off of Kejars gapps)
-* Common: all devices now support the camera effects
-* Common: Updated all dicts for ICS (blunden)
-* Common: added support for init.d
-* Common: fixed overlap battery % and charging symbol when plugged in
-* Common: fixed YouTube force close
-* Common: removed performance settings since some had some issue
+* common: long press volume when screen locked to skip tracks (cm)
+* common: custom app for sms on lockscreen (romanbb)
+* common: update to add hex color input the color picker (romanbb - modded by CND)
+* common: Add Screenshot Option on Power Menu (CM - but modified for 4.0.3)
+* common: Switched to prebuilt Superuser (there are still a few issues in the from source branch)
+* common: Switched to xoomdev's battery percentage (now bettery mod friendly)
+* common: Fixed Galaxy Live strings (Bugless Beast)
+* common: disabled hot bluetooth switching to stop massive battery drain O_O
+* common: Added the ability to customize the grid size in the launcher (Danesh M)
+* common: updated Google Apps (CND originally built off of Kejars gapps)
+* common: all devices now support the camera effects
+* common: Updated all dicts for ICS (blunden)
+* common: added support for init.d
+* common: fixed overlap battery % and charging symbol when plugged in
+* common: fixed YouTube force close
+* common: removed performance settings since some had some issue
 * Galaxy Nexus (GSM): Now distinguishes between 3G and hspa 
 * Galaxy Nexus (CDMA): Compatability with verizon wireless apps fixed (MyVerizon, NFL Mobile)
 * Nexus S (3G/4G): Fist build
@@ -373,45 +373,45 @@ https://github.com/peteralfonso/platform_vendor_pete/commit/e267325a169c62a8a513
 * Xoom (3G/4G/WiFi): First build
 
 ### 1.0.1
-* Common: Build.prop update for better market compatibility
+* common: Build.prop update for better market compatibility
 * Galaxy Nexus (GSM):Fix for camera and facelook
 
 ### 1.0.0
-* Common: Built off of clean Android 4.0.3 source (Google)
-* Common: Resurrected Android Screen Candy/Android Screen Savers (when charging - display settings) - codenamedroid
-* Common: Reboot menu w/Hotboot (restart) - CM/Liquid0624
-* Common: Pulldown toggles w/LTE toggle  - cvpcs/pedlar/gsarrica/CM
-* Common: Updateed the pulldown toggles background w/ICS styling (looks cleaner) - codenamedroid
-* Common: Camera smooth zoom - jdkoreclipse
-* Common: NavBar customization - Danesh
-* Common: Custom NavBar controls color - romanbb
-* Common: Customize your carrier label - romanbb
-* Common: Center/Hide/AM-PM Styles/Color Clock Options - romanbb
-* Common: Centered lockscreen widgets - codenamedroid
-* Common: Phone and Messaging on Lockscreen - xoomdev (images by WJD Designs)
-* Common: Quad Targets w/Hidden Unlock button on the bottom - codenamedroid
-* Common: Switch Sound Toggle for Camera on the lockscreen - codenamedroid
-* Common: Decreased wait time for rotation - KeJar/XoomDev
-* Common: Launcher based on Trebuchet (nebkat) but with extra tweaks and changes - codenamedroid
-* Common: Enable/Disable Alarm Icon in the statusbar - romanbb
-* Common: Automatic Backlight settings - CM
-* Common: Option to disable/enable menu to unlock - romanbb
-* Common: Overclocking settings - CM7
-* Common: Voltage control settings - KeJar/JRummy
-* Common: Battery percentage settings - romanbb
-* Common: Option for persistat menu button in navigation bar - romanbb modified by codenamedroid
-* Common: Real rotation lock using the ICS API - jonasl
-* Common: Toggle for CRT off animation - romanbb
-* Common: LCD-optimized text rendering - cyanogen
-* Common: Allow system user to modify cpufreq control files - NameLessJedi
-* Common: Accept all flie types for inbound bluetooth file transfers - vianney
-* Common: Download any file type - eddieringle
-* Common: OI FileManager (compiled with the ICS SDK) - GummyNex
-* Common: Dialpad: perform search when retrieving last dialled number - ntfreak
-* Common: Add support for Caller Name Display - kenshin
-* Common: Facebook sync - romanbb
-* Common: T9 Dialer - CM
-* Common: CNDSettings - codenamedroid 
+* common: Built off of clean Android 4.0.3 source (Google)
+* common: Resurrected Android Screen Candy/Android Screen Savers (when charging - display settings) - codenamedroid
+* common: Reboot menu w/Hotboot (restart) - CM/Liquid0624
+* common: Pulldown toggles w/LTE toggle  - cvpcs/pedlar/gsarrica/CM
+* common: Updateed the pulldown toggles background w/ICS styling (looks cleaner) - codenamedroid
+* common: Camera smooth zoom - jdkoreclipse
+* common: NavBar customization - Danesh
+* common: Custom NavBar controls color - romanbb
+* common: Customize your carrier label - romanbb
+* common: Center/Hide/AM-PM Styles/Color Clock Options - romanbb
+* common: Centered lockscreen widgets - codenamedroid
+* common: Phone and Messaging on Lockscreen - xoomdev (images by WJD Designs)
+* common: Quad Targets w/Hidden Unlock button on the bottom - codenamedroid
+* common: Switch Sound Toggle for Camera on the lockscreen - codenamedroid
+* common: Decreased wait time for rotation - KeJar/XoomDev
+* common: Launcher based on Trebuchet (nebkat) but with extra tweaks and changes - codenamedroid
+* common: Enable/Disable Alarm Icon in the statusbar - romanbb
+* common: Automatic Backlight settings - CM
+* common: Option to disable/enable menu to unlock - romanbb
+* common: Overclocking settings - CM7
+* common: Voltage control settings - KeJar/JRummy
+* common: Battery percentage settings - romanbb
+* common: Option for persistat menu button in navigation bar - romanbb modified by codenamedroid
+* common: Real rotation lock using the ICS API - jonasl
+* common: Toggle for CRT off animation - romanbb
+* common: LCD-optimized text rendering - cyanogen
+* common: Allow system user to modify cpufreq control files - NameLessJedi
+* common: Accept all flie types for inbound bluetooth file transfers - vianney
+* common: Download any file type - eddieringle
+* common: OI FileManager (compiled with the ICS SDK) - GummyNex
+* common: Dialpad: perform search when retrieving last dialled number - ntfreak
+* common: Add support for Caller Name Display - kenshin
+* common: Facebook sync - romanbb
+* common: T9 Dialer - CM
+* common: CNDSettings - codenamedroid 
 (layout originally based off of Pedlar/Danesh/alankila's work - all other features
 except notification widgets, backlight, and onscreen controls added in and reworked by codenamedroid)
 
@@ -424,12 +424,12 @@ except notification widgets, backlight, and onscreen controls added in and rewor
 
 Exta Tools (Provided by CM):
 
-Bash/
-Lsof/
-Nano/
-OpenVPN/
-libncurses/
-Busybox/
-Rsync/
-Superuser app - ChainsDD
+* Bash/
+* Lsof/
+* Nano/
+* OpenVPN/
+* libncurses/
+* Busybox/
+* Rsync/
+* Superuser app - ChainsDD
 
