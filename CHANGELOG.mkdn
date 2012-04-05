@@ -44,24 +44,24 @@ Translators:
 FEATURE LIST
 ---------
 
-Customizable Power Menu (reboot, profiles, screenshot, airplane mode, torch, navigation bar toggle, and silent toggle)
-Statusbar Power Widget: (long press statusbar settings button to enable/disable - toggle Sleep, Media Buttons, Airplane Mode, Bluetooth, Brightness, GPS, LED Flashlight, LTE, Mobiledata, Sound, Sync WiFi, WiFi AP, and WiMAX)
-Customizable Battery Status (icon style and miui style battery bar)
-Customizable Clock (clock style, am/pm style, clock color, and toggleable alarm clock icon)
-Customizable Signal Status (style)
-Customizable number of lockscreen targets
-Customizable lockscreen layout
-Customizable lockscreen text color
-Configurable lockscreen wallpaper
-Ability to unlock with menu
-Quick pin unlock (unlock with pin/password without pressing ok)
-Lockscreen before unlock (extra lockscreen before the PIN face lock, pattern, or password lockscreen)
-Ability to enable rotation on the lockscreen
-Sound toggle for camera (replaces the camera unlock target with one for toggling the sound settings)
-Volume wake (tap either the up ordown volume key to wake your phone from sleep)
-Volume music controls (long press volume buttons to skip tracks)
-Wait to lock screen (use androids timeout setting after you manually turn the screen off)
-Customizable Navigation Bar:
+* Customizable Power Menu (reboot, profiles, screenshot, airplane mode, torch, navigation bar toggle, and silent toggle)
+* Statusbar Power Widget: (long press statusbar settings button to enable/disable - toggle Sleep, Media Buttons, Airplane Mode, Bluetooth, Brightness, GPS, LED Flashlight, LTE, Mobiledata, Sound, Sync WiFi, WiFi AP, and WiMAX)
+* Customizable Battery Status (icon style and miui style battery bar)
+* Customizable Clock (clock style, am/pm style, clock color, and toggleable alarm clock icon)
+* Customizable Signal Status (style)
+* Customizable number of lockscreen targets
+* Customizable lockscreen layout
+* Customizable lockscreen text color
+* Configurable lockscreen wallpaper
+* Ability to unlock with menu
+* Quick pin unlock (unlock with pin/password without pressing ok)
+* Lockscreen before unlock (extra lockscreen before the PIN face lock, pattern, or password lockscreen)
+* Ability to enable rotation on the lockscreen
+* Sound toggle for camera (replaces the camera unlock target with one for toggling the sound settings)
+* Volume wake (tap either the up ordown volume key to wake your phone from sleep)
+* Volume music controls (long press volume buttons to skip tracks)
+* Wait to lock screen (use androids timeout setting after you manually turn the screen off)
+* Customizable Navigation Bar:
 - menu button visibility and location
 - number of navigation buttons
 - order of navigation buttons
@@ -69,24 +69,24 @@ Customizable Navigation Bar:
 - navigation bar size
 - button glow animation speed
 - navigation button transparency
-Custom Automatic Backlight Settings
-Customizable Rotation Modes
-Customizable Screen On/Off Animations
-Customizable LED Pulse (Duration and Color)
-USB Fast Charge Mode
-Ability to enable extra volume options (pressing the volume opens sliders for ringtone, alarms, notifications, and media sounds)
-Customizable Custom Carrier Label
-Customizable Statusbar Transparency
-Optional WebOs Style Recents List
-Performance Settings:
+* Custom Automatic Backlight Settings
+* Customizable Rotation Modes
+* Customizable Screen On/Off Animations
+* Customizable LED Pulse (Duration and Color)
+* USB Fast Charge Mode
+* Ability to enable extra volume options (pressing the volume opens sliders for ringtone, alarms, notifications, and media sounds)
+* Customizable Custom Carrier Label
+* Customizable Statusbar Transparency
+* Optional WebOS Style Recents List
+* Performance Settings:
 - Start-Up Tweaks (configurable tweaks that run at boot - zipalign apps, enable sd card boost, fix permission, clear cache, enable sysctl, enable scheduled tasks)
 - Processor Speed (change cpu governor and clock speed)
 - Processor Voltage (changes cpu voltage of each frequency)
 - Memory Management (customize the usage of memory to alter system performance0
 - Disable boot animation (skip the boot animation for a faster boot)
-Custom Profiles (assign different profiles to change the behavior of your phone to your liking)
-Quiet Hours (the ability to set when and how notification sounds, haptic feedback, vibration and notification light will function between a certain times e.g. "Quiet Hours")
-Custom Launcher: (Originally built off of Trebuchet)
+* Custom Profiles (assign different profiles to change the behavior of your phone to your liking)
+* Quiet Hours (the ability to set when and how notification sounds, haptic feedback, vibration and notification light will function between a certain times e.g. "Quiet Hours")
+* Custom Launcher: (Originally built off of Trebuchet)
 - customizable number of homescreens
 - customizable default homescreen
 - removable search bar
@@ -94,25 +94,25 @@ Custom Launcher: (Originally built off of Trebuchet)
 - ability to hide icon lablels
 - configurable transition effects
 - ability to enable rotation
-Ability to unlink volumes and mute states
-Ability to turn off the USB debugging notification
-ADB over Network (enable TCP/IP debugging over Network interfaces (WiFi, Usb networks) )
-Configurable root access (disabled, apps only, ADB only, or Apps and ADB)
-Optional Long Press Back to Kill Apps
-Advanced Testing:
+* Ability to unlink volumes and mute states
+* Ability to turn off the USB debugging notification
+* ADB over Network (enable TCP/IP debugging over Network interfaces (WiFi, Usb networks) )
+* Configurable root access (disabled, apps only, ADB only, or Apps and ADB)
+* Optional Long Press Back to Kill Apps
+* Advanced Testing:
 - Configurable Build.Prop
 - Spare Parts Settings
 - Development Settings
 - Testing Settings
 
 Extra Tools:
-Superuser app
-Busybox
-Bash
-Rsync
-Lsof
-Nano
-libncurses
+* Superuser app
+* Busybox
+* Bash
+* Rsync
+* lsof
+* Nano
+* libncurses
 
 
 CHANGELOG
