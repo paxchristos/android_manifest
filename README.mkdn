@@ -35,7 +35,7 @@ Your Done!!
 Initializing a Build Environment
 --------------------------
 
-Read [Setting-Up-Linux](https://github.com/CNA/android_manifest/blob/mod-4.0.3/Setting-Up-Linux.mkdn) For Linux Users or [Setting-Up-Mac](https://github.com/CNA/android_manifest/blob/mod-4.0.3/Setting-Up-Mac.mkdn) For Mac Users and if you need any more help check out [Initializing a Build Environment](http://source.android.com/source/initializing.html) for the official instructions.
+Read [Setting-Up-Linux](https://github.com/CNA/android_manifest/blob/mod-4.0.4/Setting-Up-Linux.mkdn) For Linux Users or [Setting-Up-Mac](https://github.com/CNA/android_manifest/blob/mod-4.0.4/Setting-Up-Mac.mkdn) For Mac Users and if you need any more help check out [Initializing a Build Environment](http://source.android.com/source/initializing.html) for the official instructions.
 
 
 Create the Directories
@@ -73,7 +73,7 @@ Before you continue --> run this in the terminal
 
 	git config --global review.review.codenameandroid.com.username <gerrit username>
 
-    repo init -u http://github.com/CNA/android_manifest.git -b stock-4.0.4
+    repo init -u http://github.com/CNA/android_manifest.git -b mod-4.0.4
 
     repo sync
 
@@ -90,7 +90,7 @@ Initialize the environment with the envsetup.sh script. Note that replacing "sou
     lunch
 
 
-Once you type in the lunch command you will be presented with a list of options to choose to build from. the “stock” builds are what you want to choose if you chose to download the stock branch and “cna” is what you want to choose if you chose to download the “modified” branch
+Once you type in the lunch command you will be presented with a list of options to choose to build from. the “stock” builds are what you want to choose if you chose to download the stock branch and “mod” is what you want to choose if you chose to download the “modified” branch
 
 
 crepso = Nexus S
