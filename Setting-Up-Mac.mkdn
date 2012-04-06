@@ -2,7 +2,7 @@
 Setting Up Your Mac
 ---------------
 
-Install xcode 4.2
+Install [Xcode 4.3](http://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12)
 
 Install macports 2.0.3
 
