@@ -1,4 +1,3 @@
-
 Setting Up Your Mac
 ---------------
 
@@ -41,32 +40,4 @@ also add
 to your ~/.bash_profile to make sure that /opt/local/bin appears in your path BEFORE /usr/bin
 
 
-Save the bash._file by Clicking on file and on save a version.  Then close and reopen terminal so that the new lines that can be read or recognized. 
-
-
-
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+Save the bash._file by Clicking on file and on save a version.  Then close and reopen terminal so that the new lines that can be read or recognized.
