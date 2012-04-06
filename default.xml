@@ -264,7 +264,7 @@
   <project path="system/vold" name="android_system_vold" remote="cna" revision="stock-4.0.4" />
 
   <!--  Proprietary Apps   -->
-  <project path="packages/apps/SpeakerProximity" name="androcom_packages_apps_speakerproximity" revision="trunk" />
+  <project path="packages/apps/SpeakerProximity" name="androcom_packages_apps_speakerproximity" remote="cna" revision="trunk" />
 
   <!--     Extra Tools     -->
   <project path="external/bash" name="android_external_bash" remote="cna" revision="stock-4.0.4" />
