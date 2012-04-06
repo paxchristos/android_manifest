@@ -264,7 +264,7 @@
   <project path="system/vold" name="android_system_vold" remote="cna" revision="stock-4.0.4" />
 
   <!--  CNA Mod Manifiest  -->
-  <project path="android" name="android_manifest" revision="mod-4.0.4" />
+  <project path="android" name="android_manifest"  remote="cna" revision="mod-4.0.4" />
   <!--  Proprietary Apps   -->
   <project path="packages/apps/SpeakerProximity" name="androcom_packages_apps_speakerproximity" remote="cna" revision="trunk" />
 
