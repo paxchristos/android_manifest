@@ -73,7 +73,7 @@ Before you continue --> run this in the terminal
 
 	git config --global review.review.codenameandroid.com.username <gerrit username>
 
-    repo init -u http://github.com/CNA/android_manifest.git -b stock-4.0.4
+    repo init -u https://github.com/CNA/android_manifest.git -b stock-4.0.4
 
     repo sync
 
