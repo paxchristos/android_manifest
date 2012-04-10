@@ -5,11 +5,11 @@
            fetch="https://android.googlesource.com/" />
 
   <remote  name="cna"
-           fetch="https://github.com/CNA/"
+           fetch="git://github.com/CNA/"
            review="review.codenameandroid.com" />
 
   <remote  name="github"
-           fetch="https://github.com/" />
+           fetch="git://github.com/" />
 
   <default revision="refs/tags/android-4.0.4_r1.1"
            remote="aosp"
