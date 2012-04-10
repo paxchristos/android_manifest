@@ -40,6 +40,7 @@
   <project path="device/moto/stingray_cdma" name="android_device_moto_stingray_cdma" remote="cna" revision="stock-4.0.4" />
   <project path="device/moto/umts_everest" name="android_device_moto_umts_everest" remote="cna" revision="stock-4.0.4" />
   <project path="device/moto/wingray" name="android_device_moto_wingray" remote="cna" revision="stock-4.0.4" />
+  <project path="device/motorola/olympus" name="android_device_motorola_olympus" remote="cna" revision="stock-4.0.4" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/aries-common" name="android_device_samsung_aries-common" remote="cna" revision="stock-4.0.4" />
   <project path="device/samsung/captivatemtd" name="android_device_samsung_captivatemtd" remote="cna" revision="stock-4.0.4" />
@@ -289,6 +290,7 @@
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="cna" revision="stock-4.0.4" />
   <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="cna" revision="stock-4.0.4" />
   <project path="vendor/moto" name="proprietary_vendor_moto" remote="cna" revision="stock-4.0.4" />
+  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="cna" revision="stock-4.0.4" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="cna" revision="stock-4.0.4" />
 
 </manifest>
