@@ -10,6 +10,12 @@
 
   <remote  name="github"
            fetch="git://github.com/" />
+  
+  <remote  name="pax"
+           fetch="git://github.com/paxchristos/"/>
+
+  <remote  name="CM"
+     fetch="git://github.com/CyanogenMod/"/>
 
   <default revision="refs/tags/android-4.0.4_r1.1"
            remote="aosp"
@@ -267,7 +273,7 @@
   <project path="system/vold" name="android_system_vold" remote="cna" revision="stock-4.0.4" />
 
   <!--  CNA Mod Manifiest  -->
-  <project path="android" name="android_manifest"  remote="cna" revision="mod-4.0.4" />
+  <!--<project path="android" name="android_manifest"  remote="cna" revision="mod-4.0.4" /> -->
   <!--  Proprietary Apps   -->
   <project path="packages/apps/SpeakerProximity" name="android_packages_apps_SpeakerProximity" remote="cna" revision="trunk" />
 
@@ -288,12 +294,27 @@
   <!-- Proprietary Vendors -->
   <project path="vendor/asus/tf101" name="android_vendor_asus_tf101" remote="cna" revision="stock-4.0.4" />
   <project path="vendor/asus/tf201" name="vendor_proprietary_asus_tf201" remote="cna" revision="stock-4.0.4" />
-  <project path="vendor/cna" name="android_vendor_cna" remote="cna" revision="mod-4.0.4" />
+  <!--<project path="vendor/cna" name="android_vendor_cna" remote="cna" revision="mod-4.0.4" /> -->
   <project path="vendor/google" name="android_vendor_google_apps" remote="cna" revision="stock-4.0.4" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="cna" revision="stock-4.0.4" />
   <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="cna" revision="stock-4.0.4" />
   <project path="vendor/moto" name="proprietary_vendor_moto" remote="cna" revision="stock-4.0.4" />
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="cna" revision="stock-4.0.4" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="cna" revision="stock-4.0.4" />
+
+   <!--My Stuff -->
+   <project path="vendor/cna" name="android_vendor_cna" remote="pax" revision="mod-4.0.4"/>
+   <project path="vendor/semc" name="proprietary_vendor_semc" remote="pax" revision="ics"/>
+   <project path="device/semc/msm7x30-common" name="android_device_semc_msm7x30-common" remote="pax" revision="mod-4.0.4"/>
+   <project path="device/semc/zeus-common" name="android_device_semc_zeus-common" remote="pax" revision="mod-4.0.4"/>
+   <project path="device/semc/zeusc" name="android_device_semc_zeusc" remote="pax" revision="mod-4.0.4"/>
+   <project path="android" name="android_manifest" remote="pax" revision="mod-4.0.4"/>
+
+
+   <!-- Theme Manager --> 
+   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="CM" revision="ics"/>
+   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes"  remote="CM" revision="ics"/>
+   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="CM" revision="ics"/>
+   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="CM" revision="ics"/>
 
 </manifest>
