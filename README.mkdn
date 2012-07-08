@@ -2,7 +2,7 @@ Take over by pax!!
 
 Local_manifests.xml does not work, so i've taken this over & tweaked it out, I know it's not the best method, but it's
 what i've resorted to :D 
-
+repo init -u git://github.com/paxchristos/android_manifest.git -b mod-4.0.4
 Pax
 
 Codename Android
